@@ -4,7 +4,7 @@ Created based off information found in [CEH Certified Ethical Hacker All-in-One 
 
 ## Table of Contents
 
-[1 - Essential Knowledge](1 - Essential Knowledge.md)
+[1 - Essential Knowledge](1-Essential-Knowledge.md)
 
 [2 - Reconnaissance](2 - Reconnaissance.md)
 
