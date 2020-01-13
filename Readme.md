@@ -10,13 +10,13 @@ Created based off information found in [CEH Certified Ethical Hacker All-in-One 
 
 [3 - Scanning and Enumeration](3-Scanning-and-Enumeration.md)
 
-[4 - Sniffing and Evasion](4 - Sniffing and Evasion.md)
+[4 - Sniffing and Evasion](4-Sniffing-and-Evasion.md)
 
-[5 - Attacking a System](5 - Attacking a System.md)
+[5 - Attacking a System](5-Attacking-a-System.md)
 
-[6 - Web-Based Hacking - Servers and Applications](6 - Web-Based Hacking - Servers and Applications.md)
+[6 - Web-Based Hacking - Servers and Applications](6-Web-Based-Hacking-Servers-and-Applications.md)
 
-[7 - Wireless Network Hacking](7 - Wireless Network Hacking.md)
+[7 - Wireless Network Hacking](7-Wireless-Network-Hacking.md)
 
 [8 - Mobile Communications and IoT](8 - Mobile Communications and IoT.md)
 
