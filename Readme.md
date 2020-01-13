@@ -6,9 +6,9 @@ Created based off information found in [CEH Certified Ethical Hacker All-in-One 
 
 [1 - Essential Knowledge](1-Essential-Knowledge.md)
 
-[2 - Reconnaissance](2 - Reconnaissance.md)
+[2 - Reconnaissance](2-Reconnaissance.md)
 
-[3 - Scanning and Enumeration](3 - Scanning and Enumeration.md)
+[3 - Scanning and Enumeration](3-Scanning-and-Enumeration.md)
 
 [4 - Sniffing and Evasion](4 - Sniffing and Evasion.md)
 
