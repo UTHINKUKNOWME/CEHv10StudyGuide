@@ -197,4 +197,4 @@
     - **Encapsulating Security Payload** (ESP) - provides origin authenticity and integrity as well as confidentiality
     - **Internet Key Exchange** (IKE) - produces the keys for the encryption process
     - **Oakley** - uses Diffie-Hellman to create master and session keys
-    - ** Internet Security Association Key Management Protocol** (ISAKMP) - software that facilitates encrypted communication between two endpoints
+    - **Internet Security Association Key Management Protocol** (ISAKMP) - software that facilitates encrypted communication between two endpoints
