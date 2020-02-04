@@ -90,6 +90,8 @@
     - CryptoLocker
     - CryptoDefense
     - police-themed
+    - Locky
+    - Petya
 - **Other Virus Types**
   - **Boot Sector Virus** - known as system virus; moves boot sector to another location and then inserts its code int he original location
   - **Shell Virus** - wraps  around an application's code, inserting itself before the application's
