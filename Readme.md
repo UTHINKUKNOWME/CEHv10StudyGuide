@@ -22,23 +22,23 @@ Created based on information found in [CEH Certified Ethical Hacker All-in-One E
 
 | CEHv10 Courseware        | All-in-One Coverage       |
 |--------------------------|---------------------------|
-| Introduction to Ethical Hacking   | 1.  Essential Knowledge       |
-| Footprinting and Reconnaissance   | 2.  Reconnaissance            |
-| Scanning Networks                 | 3.  Scanning and Enumeration  |
-| Enumeration                       | 3.  Scanning and Enumeration  |
-| Vulnerability Analysis            | 5.  Attacking a System        |
-| System Hacking                    | 5.  Attacking a System        |
-| Malware Threats                   | 10. Trojans and Others Attacks|
-| Sniffing                          | 4.  Sniffing and Evasion      |
-| Social Engineering                | 12. Low Tech: Social Engineering and Physical Security|
-| Denial of Service                 | 10. Trojans and Others Attacks|
-| Session Hijacking                 | 10. Trojans and Others Attacks|
-| Evading IDS, Firewalls, and Honeypots | 4.  Sniffing and Evasion      |
-| Hacking Web Servers               | 6.  Web-Based Hacking - Servers and Applications |
-| Hacking Web Applications          | 6.  Web-Based Hacking - Servers and Applications |
-| SQL Injection                     | 6.  Web-Based Hacking - Servers and Applications |
-| Hacking Wireless Networks         | 7.  Wireless Network Hacking |
-| Hacking Mobile Platforms          | 8.  Mobile Communications and IoT |
-| IoT Hacking                       | 8.  Mobile Communications and IoT |
-| Cloud Computing                   | 9.  Security in Cloud Computing |
-| Cryptography                      | 11. Cryptography 101  |
+| Introduction to Ethical Hacking   | Chap 1 - Essential Knowledge       |
+| Footprinting and Reconnaissance   | Chap 2 - Reconnaissance            |
+| Scanning Networks                 | Chap 3 - Scanning and Enumeration  |
+| Enumeration                       | Chap 3 - Scanning and Enumeration   |
+| Vulnerability Analysis            | Chap 5 - Attacking a System        |
+| System Hacking                    | Chap 5 - Attacking a System        |
+| Malware Threats                   | Chap 10 - Trojans and Others Attacks |
+| Sniffing                          | Chap 4 - Sniffing and Evasion      |
+| Social Engineering                | Chap 12 - Low Tech: Social Engineering and Physical Security |
+| Denial of Service                 | Chap 10 - Trojans and Others Attacks|
+| Session Hijacking                 | Chap 10 - Trojans and Others Attacks|
+| Evading IDS, Firewalls, and Honeypots | Chap 4 - Sniffing and Evasion       |
+| Hacking Web Servers               | Chap 6 - Web-Based Hacking - Servers and Applications |
+| Hacking Web Applications          | Chap 6 - Web-Based Hacking - Servers and Applications |
+| SQL Injection                     | Chap 6 - Web-Based Hacking - Servers and Applications |
+| Hacking Wireless Networks         | Chap 7 - Wireless Network Hacking |
+| Hacking Mobile Platforms          | Chap 8 - Mobile Communications and IoT |
+| IoT Hacking                       | Chap 8 - Mobile Communications and IoT |
+| Cloud Computing                   | Chap 9 - Security in Cloud Computing |
+| Cryptography                      | Chap 11 - Cryptography 101  |
