@@ -127,7 +127,7 @@
   - **Subject's Public Key** - copy of the subject's public key
   - **Optional Fields** - Issuer Unique Identifier, Subject Alternative Name, and Extensions
 - Some root CAs are automatically added to OSes that they already trust; normally are reputable companies
-- **Self-Signed Certificates** - certificates that are not signed by a CA; generally not used for public; used for development purposes
+- **Self-Signed Certificates** - certificates that are not signed by a CA; generally not used for public; used for development and/or internal purposes
   - Signed by the same entity it certifies
 
 ### <u>Digital Signatures</u>
