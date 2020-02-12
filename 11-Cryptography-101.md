@@ -154,7 +154,7 @@
 - **Heartbleed** - attack on OpenSSL heartbeat which verifies data was received correctly
   - Vulnerability is that a single byte of data gets 64kb from the server
   - This data is random; could include usernames, passwords, private keys, cookies; very easy to pull off
-  - nmap -d --script ssl-heartbleed --script-args vulns.showall -sV [host]
+  - `nmap -d --script ssl-heartbleed --script-args vulns.showall -sV [host]`
   - Vulnerable versions include Open SSL 1.0.1 and 1.0.1f
   - CVE-2014-0160
 - **FREAK** (Factoring Attack on RSA-EXPORT Keys) - man-in-the-middle attack that forces a downgrade of RSA key to a weaker length
