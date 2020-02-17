@@ -1,12 +1,12 @@
 # The Pen Test:  Putting It All Together
 
 - **Security Assessment** - test performed in order to assess the level of security on a network or system
-- **Security Audit** - policy and procedure focused; tests whether organization is following specific standards and policies
-- **Vulnerability Assessment** - scans and tests for vulnerabilities but does not intentionally exploit them
-- **Penetration Test** - looks for vulnerabilities and actively seeks to exploit them
+  - **Security Audit** - policy and procedure focused; tests whether organization is following specific standards and policies
+  - **Vulnerability Assessment** - scans and tests for vulnerabilities but does not intentionally exploit them
+  - **Penetration Test** - looks for vulnerabilities and actively seeks to exploit them
 - Need to make sure you have a great contract in place to protect you from liability
 - **Types of Pen Tests**
-  - **External assessment** - analyzes publicly available information; conducts network scanning, enumeration and testing from the network perimeter
+  - **External Assessment** - analyzes publicly available information; conducts network scanning, enumeration and testing from the network perimeter
   - **Internal Assessment** - performed from within the organization, from various network access points
 - **Red Team** - pen test team that is doing the attacking
 - **Blue Team** - pen test team that is doing the defending
