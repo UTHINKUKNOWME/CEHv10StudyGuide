@@ -22,6 +22,7 @@
 - **Impersonation** - pretending to be someone you're not
   - Can be anything from a help desk person up to an authoritative figure (FBI agent)
   - Posing as a tech support professional can really quickly gain trust with a person
+- **Vishing** - using a phone during a social engineering effort (voice phishing)
 - **Shoulder Surfing** - looking over someone's shoulder to get info
   - Can be done long distance with binoculars, etc.
 - **Eavesdropping** - listening in on conversations about sensitive information
