@@ -69,7 +69,7 @@ SYN -> SYN-ACK -> ACK
 - **Enterprise Information Security Architecture** (EISA) - process that determines how systems work within an organization
 - **Incident management** - deals with specific incidents to mitigate the attack
 
-### <u>Threat Modeling</u>
+### Threat Modeling
 
 - Identify security objectives
 - Application Overview
@@ -79,11 +79,11 @@ SYN -> SYN-ACK -> ACK
 
 ### <u>Risk Management</u>
 
-- Risk identification
-- Risk assessment
-- Risk treatment
-- Risk tracking
-- Risk review
+* Risk identification
+* Risk assessment
+* Risk treatment
+* Risk tracking
+* Risk review
 
   *Uses risk analysis matrix to determine threat level
 
@@ -104,21 +104,13 @@ SYN -> SYN-ACK -> ACK
 ### <u>Business Analysis</u>
 
 - Business Impact Analysis (BIA)
-
   - Maximum Tolerable Downtime (MTD)
-
 - Business Continuity Plan (BCP)
-
   - Disaster Recovery Plan (DRP)
-
 - Annualized Loss Expectancy (ALE)
-
   - Annual Rate of Occurrence (ARO)
-
   - Single Loss Expectancy (SLE)
-    $$
-    ALE = SLE * ARO
-    $$
+  - ALE = SLE * ARO
 
 **User Behavior Analysis** (UBA) - tracking users and extrapolating data in light of malicious activity
 
