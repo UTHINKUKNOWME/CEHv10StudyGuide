@@ -46,7 +46,7 @@
 
 - **Web mirroring** - allows for discrete testing offline
   - HTTrack
-  - Black Widow
+  - BlackWidow
   - Wget
   - WebRipper
   - Teleport Pro
@@ -72,10 +72,9 @@
 - **Authoritative Servers** hold all records for a namespace
 
 - **DNS Record Types**
-
   
 
-  - | Name  | Description        | Purpose                                        |
+    | Name  | Description        | Purpose                                        |
     | ----- | ------------------ | ---------------------------------------------- |
     | SRV   | Service            | Points to a specific service                   |
     | SOA   | Start of Authority | Indicates the authoritative NS for a namespace |
@@ -111,20 +110,20 @@
 
 - **Nslookup** - performs DNS queries
 
-  - nslookup [ - options ] [ hostname ]
+  - `nslookup [ - options ] [ hostname ]`
   - interactive zone transfer
-    - nslookup
-    - server <IP Address>
-    - set type = any
-    - ls -d domainname.com
+    - `nslookup`
+    - `server <IP Address>`
+    - `set type = any`
+    - `ls -d domainname.com`
 
 - **Dig** - unix-based command like nslookup
 
-  - dig @server name type
+  - `dig @server name type`
 
 **Network Footprinting**
 
-- IP address range can be obtained from regional registrar (ARIN here)
+- IP address range can be obtained from regional registrar
 - Use traceroute to find intermediary servers
   - traceroute uses ICMP echo in Windows
 - Windows command - tracert
