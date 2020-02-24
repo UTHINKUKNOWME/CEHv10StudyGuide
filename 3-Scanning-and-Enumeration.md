@@ -124,23 +124,23 @@
 
 - **Full connect** - TCP connect or full open scan - full connection and then tears down with RST
   - Easiest to detect, but most reliable
-  - nmap -sT
+  - `nmap -sT`
 - **Stealth** - half-open scan or SYN scan - only SYN packets sent.  Responses same as full.
   - Useful for hiding efforts and evading firewalls
-  - nmap -sS
+  - `nmap -sS`
 - **Inverse TCP flag** - uses FIN, URG or PSH flag.  Open gives no response.  Closed gives RST/ACK
-  - nmap -sN (Null scan)
-  - nmap -sF (FIN scan)
+  - `nmap -sN` (Null scan)
+  - `nmap -sF` (FIN scan)
 - **Xmas** - so named because all flags are turned on so it's "lit up" like a Christmas tree
   - Responses are same as Inverse TCP scan
   - Do not work against Windows machines
-  - nmap -sX
+  - `nmap -sX`
 - **ACK flag probe** - multiple methods
   - TTL version - if TTL of RST packet < 64, port is open
   - Window version - if the Window on the RST packet is anything other than 0, port open
   - Can be used to check filtering.  If ACK is sent and no response, stateful firewall present.
-  - nmap -sA (ACK scan)
-  - nmap -sW (Window scan)
+  - `nmap -sA` (ACK scan)
+  - `nmap -sW` (Window scan)
 - **IDLE Scan** - uses a third party to check if a port is open
   - Looks at the IPID to see if there is a repsonse
   - Only works if third party isn't transmitting data
@@ -148,7 +148,7 @@
     - IPID increase of 1 indicates port closed
     - IPID increase of 2 indicates port open
     - IPID increase of anything greater indicates the third party was not idle
-  - nmap -sI <zombie host>
+  - `nmap -sI <zombie host>`
 
 ### <u>Nmap Switches</u>
 
@@ -183,7 +183,7 @@
 
 - Another powerful ping sweep and port scanning tool
 - Also can craft packets
-- hping3 -1 IPaddress
+- `hping3 -1 <IPaddress>`
 
 | Switch  | Description                                                  |
 | ------- | ------------------------------------------------------------ |
