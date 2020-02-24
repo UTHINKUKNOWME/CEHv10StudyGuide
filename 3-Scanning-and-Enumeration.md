@@ -212,8 +212,8 @@
 - **Spoofing** - can only be used when you don't expect a response back to your machine
 - **Source routing** - specifies the path a packet should take on the network; most systems don't allow this anymore
 - **IP Address Decoy** - sends packets from your IP as well as multiple other decoys to confuse the IDS/Firewall as to where the attack is really coming from
-  - nmap -D RND:10 x.x.x.x
-  - nmap -D decoyIP1,decoyIP2....,sourceIP,.... [target]
+  - `nmap -D RND:10 x.x.x.x`
+  - `nmap -D decoyIP1,decoyIP2....,sourceIP,.... [target]`
 - **Proxy** - hides true identity by filtering through another computer.  Also can be used for other purposes such as content blocking evasion, etc.
   - **Proxy chains** - chaining multiple proxies together
     - Proxy Switcher
@@ -261,7 +261,7 @@
 - **Passive** - reading error messages, sniffing traffic or looking at page extensions
 - Easy way to banner grab is connect via telnet on port (e.g. 80 for web server)
 - **Netcat** can also be used to banner grab
-  - nc <IPaddress or FQDN> <port number>
+  - `nc <IPaddress or FQDN> <port number>`
 - Can be used to get information about OS or specific server info (such as web server, mail server, etc.)
 
 ### <u>NetBIOS Enumeration</u>
@@ -270,10 +270,10 @@
 - The browser service in Windows designed to host information about all machines within domain or TCP/IP network segment
 - NetBIOS name is a **16-character ASCII string** used to identify devices
 - Command on Windows is **nbtstat**
-  - nbtstat (gives your own info)
-  - nbtstat -n (gives local table)
-  - nbtstat -A IPADDRESS (gives remote information)
-  - nbtstat -c (gives cache information)
+  - `nbtstat` (gives your own info)
+  - `nbtstat -n` (gives local table)
+  - `nbtstat -A IPADDRESS` (gives remote information)
+  - `nbtstat -c` (gives cache information)
 
 | Code | Type   | Meaning                   |
 | ---- | ------ | ------------------------- |
