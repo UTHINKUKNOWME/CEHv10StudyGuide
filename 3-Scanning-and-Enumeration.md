@@ -19,7 +19,7 @@
 
 ### <u>TCP Handshake</u>
 
-- SYN -> SYN-ACK - ACK
+- SYN -> SYN-ACK -> ACK
 - Sequence numbers increase on new communication.  Example is computers A and B.  A would increment B's sequence number.  A would never increment it's own sequence.
 
 ### <u>Port Numbers</u>
@@ -61,8 +61,8 @@
   - Netstat
 
     - Shows open ports on computer
-    - **netstat -an** displays connections in numerical form
-    - **netstat -b** displays executables tied to the open port (admin only)
+    - `netstat -an` displays connections in numerical form
+    - `netstat -b` displays executables tied to the open port (admin only)
 
 ### <u>Subnetting</u>
 
@@ -80,8 +80,7 @@
   - If all the bits in the host field are 1s, the address is the broadcast
   - If they are all 0s, it's the network address
   - Any other combination indicates an address in the range
-  - ![img](https://s3.amazonaws.com/prealliance-thumbnails.oneclass.com/thumbnails/001/751/775/original/stringio.txt?1513221790)
-
+  
 ### <u>Scanning Methodology</u>
 
 - **Check for live systems** - ping or other type of way to determine live hosts
