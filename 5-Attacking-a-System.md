@@ -1,7 +1,7 @@
 # Attacking a System
 
-<u>Windows Security Architecture</u>
-
+### <u>Windows Security Architecture</u> ###
+ 
 - Authentication credentials stored in SAM file
 - File is located at C:\windows\system32\config
 - Older systems use LM hashing.  Current uses NTLM v2 (MD5)
