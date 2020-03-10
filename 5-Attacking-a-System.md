@@ -204,7 +204,7 @@
 - Hides processes and files
 - Also allows for future access
 - **Examples**
-  - Horsepill - Linus kernel rootkit inside initrd
+  - Horsepill - Linux kernel rootkit inside initrd
   - Grayfish - Windows rootkit that injects in boot record
   - Firefef - multi-component family of malware
   - Azazel
