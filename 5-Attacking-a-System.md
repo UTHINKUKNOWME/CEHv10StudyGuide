@@ -79,9 +79,9 @@
 | ps       | Process status.  -ef option shows all processes              |
 | rm       | Removes files.  -r option recursively removes all directories and subdirectories |
 | su       | Allows you to perform functions as another user (super user) |
+| pwd      | Displays curennt directory                                   |
 
 - Adding an ampersand after a process name indicates it should run in the background.
-- **pwd** - displays curennt directory
 - **chmod** - changes the permissions of a folder or file
   - Read is 4, write is 2 and execute is 1
   - First number is user, second is group, third is others
