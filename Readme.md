@@ -44,3 +44,8 @@ Created based on information found in [CEH Certified Ethical Hacker All-in-One E
 | IoT Hacking                       | Chap 8 - Mobile Communications and IoT |
 | Cloud Computing                   | Chap 9 - Security in Cloud Computing |
 | Cryptography                      | Chap 11 - Cryptography 101  |
+
+
+## CEH Quick Review Guide
+
+[Bonus](CEH Quick Review Guide.pdf) from Matt Walker
