@@ -33,8 +33,8 @@
 - Packets are ARP_REQUEST and ARP_REPLY
 - Each computer maintains it's own ARP cache, which can be poisoned
 - **Commands**
-  - arp -a - displays current ARP cache
-  - arp -d * - clears ARP cache
+  - `arp -a` - displays current ARP cache
+  - `arp -d *` - clears ARP cache
 - Works on a broadcast basis - both requests and replies are broadcast to everyone
 - **Gratuitous ARP** - special packet to update ARP cache even without a request
   - This is used to poison cache on other machines
