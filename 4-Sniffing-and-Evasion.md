@@ -2,7 +2,7 @@
 
 ### <u>Basic Knowledge</u>
 
- - Sniffing is capturing packets as they pass on the wire to review for interesting information
+ - **Sniffing** is capturing packets as they pass on the wire to review for interesting information
  - **MAC**  (Media Access Control) - physical or burned-in address - assigned to NIC for communications at the Data Link layer
     - 48 bits long
     - Displayed as 12 hex characters separated by colons
