@@ -48,4 +48,4 @@ Created based on information found in [CEH Certified Ethical Hacker All-in-One E
 
 ## CEH Quick Review Guide
 
-[Bonus](CEH Quick Review Guide.pdf) from Matt Walker
+[Bonus](CEH-Quick-Review-Guide.pdf) from Matt Walker
