@@ -306,23 +306,25 @@
 - SNMP uses community strings which function as passwords
 - There is a read-only and a read-write version
 - Default read-only string is **public** and default read-write is **private**
-- These are sent in cleartext unless using SNMP v3
+- These are sent in cleartext unless using SNMPv3
 - **Tools**
   - Engineer's Toolset
   - SNMPScanner
   - OpUtils 5
   - SNScan
+  - IP Network Browser
 
 ### <u>Other Enumerations</u>
 
 - **LDAP**
-  - Connects on 389 to a Directory System Agent (DSA)
+  - Connects on TCP 389 to a Directory System Agent (DSA)
   - Returns information such as valid user names, domain information, addresses, telephone numbers, system data, organization structure and other items
   - **Tools**
     - Softerra
     - JXplorer
     - Lex
     - LDAP Admin Tool
+    - Active Directory Explorer
 - **NTP**
   - Runs on UDP 123
   - Querying can give you list of systems connected to the server (name and IP)
