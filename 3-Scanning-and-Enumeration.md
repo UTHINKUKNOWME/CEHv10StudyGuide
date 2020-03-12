@@ -52,7 +52,9 @@
     | 389         | LDAP     | TCP/UDP            |
     | 443         | HTTPS    | TCP                |
     | 445         | SMB      | TCP                |
+    | 500         | ISAAKMP/IKE | UDP             |
     | 514         | SYSLOG   | UDP                |
+    | 3268        | Global Catalog Service | TCP/UDP |
 
   - A service is said to be **listening** for a port when it has that specific port open
 
