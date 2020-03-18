@@ -273,4 +273,4 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 - **Compensating** - Controls used to supplement directive controls, such as administrator reviewing logs files for violations of company policy
 - **Detective** -  Controls used to monitor and alert on malicious or unauthorized activity, such as IDS's and CCTV feeds monitored in real life
 - **Corrective** - Controls used to repair damage caused by malicious events. Such as AntiVirus software and IPS (IPS being both a detective and corrective control) 
-- **Recovery**
+- **Recovery** - Controls to comeback from a disaster (BU, DRS,…)
