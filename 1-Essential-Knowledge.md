@@ -68,6 +68,10 @@ SYN -> SYN-ACK -> ACK
 - **Doxing** - searching for and publishing information about an individual usually with a malicious intent
 - **Enterprise Information Security Architecture** (EISA) - process that determines how systems work within an organization
 - **Incident management** - deals with specific incidents to mitigate the attack
+- **Vulnerability** - existence of a weakness, design, or implementation error that can lead to an unexpected event compromising the security of the system
+- **Exploit** - a breach of IT system security through vulnerabilities
+- **Payload** - is the part of an expoit code that performs the intended malicious action, such as destroying, creating backdoors, and hijacking compute
+- **Daisy Chaining** - involves gaining access to one network and/or computer and then using the same infromation to gain access to multiple networks and computers that contain desirable information
 
 ### Threat Modeling
 
