@@ -73,7 +73,7 @@ SYN -> SYN-ACK -> ACK
 - **Payload** - is the part of an expoit code that performs the intended malicious action, such as destroying, creating backdoors, and hijacking compute
 - **Daisy Chaining** - involves gaining access to one network and/or computer and then using the same infromation to gain access to multiple networks and computers that contain desirable information
 
-### Threat Modeling
+### <u>Threat Modeling</u>
 
 - Identify security objectives
 - Application Overview
@@ -83,11 +83,11 @@ SYN -> SYN-ACK -> ACK
 
 ### <u>Risk Management</u>
 
-* Risk identification
-* Risk assessment
-* Risk treatment
-* Risk tracking
-* Risk review
+- Risk identification
+- Risk assessment
+- Risk treatment
+- Risk tracking
+- Risk review
 
   *Uses risk analysis matrix to determine threat level
 
@@ -158,15 +158,11 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 - **Paranoid** - locks everything down
 
 **Standards** - mandatory rules to achieve consistency
-
 **Baselines** - provide the minimum security necessary
-
 **Guidelines** - flexible or recommended actions
-
 **Procedures** - step by step instructions
 
 **Script Kiddie** - uneducated in security methods, but uses tools that are freely available to perform malicious activities
-
 **Phreaker** - manipulates telephone systems
 
 ### <u>The Hats</u>
@@ -176,11 +172,8 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 - **Gray Hat** - hackers that perform good or bad activities but do not have the permission of the organization they are hacking against
 
 **Hacktivist** - someone who hacks for a cause
-
 **Suicide Hackers** - do not case about any impunity to themselves; hack to get the job done
-
 **Cyberterrorist** - motivated by religious or political beliefs to create fear or disruption
-
 **State-Sponsored Hacker** - hacker that is hired by a government
 
 ### <u>Attack Types</u>
@@ -236,7 +229,6 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 - **Civil** - private rights and remedies
 - **Common** - laws that are based on societal customs
 
-
 ### <u>Laws and Standards</u>
 
 - **OSSTM Compliance** - "Open Source Security Testing Methodology Manual" maintained by ISECOM , defines three types of compliance
@@ -251,9 +243,7 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
     - *Subjugation* - Ensures that interactions occur according to processes defined by the asset owner
     - *Continuity* -  Maintains interactivity with assets if corruption of failure occurs
     - *Resilience* - Protects assets from corruption and failure
-   
-  
-  
+     
   - **OSSTM Class B  - Process Controls**
       - *Non-repudiation* - Prevents participants from denying its actions
       - *Confidentiality* - Ensures that only participants know of an asset
@@ -261,34 +251,24 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
       - *Integrity* - Ensures that only participants know when assets and processes change
       - *Alarm*  - Notifies participants when interactions occur
       
+- **CFAA** - "Computer Fraud and Abuse Act" Enacted in 1986 and addresses hacking activities
 - **ISO 27001** - Security standard based on the British BS7799 standard, focuses on security governance
-
 - **NIST-800-53** -  Catalogs security and privacy controls for federal information systems, created to help implementation of FISMA
-
 - **ISO 27002 AND 17799** - Based on BS799 but focuses on security objectives and provides security controls based on industry best practice
-
 - **FISMA** - "Federal Information Security Modernization Ac Of 2002" A law updated in 2004 to codify the authority of the Department of Homeland Security with regard to implementation of information security policies 
-  
 - **FITARA** - "Federal Information Technology Acquisition Reform Act" A 2013 bill that was intended to change the framework that determines how the US GOV purchases technology 
-
 - **HIPAA** - "Health Insurance Portability and Accountability Act" a law that set's privacy standards to protect patient medical records and health information shared between doctors, hospitals and insurance providers
-
 - **PCI-DSS**  - "Payment Card Industry Data Security Standard" Standard for organizations handling Credit Cards, ATM cards and other POS cards
-
 - **COBIT** - "Control Object for Information and Related Technology" IT Governance framework and toolset, created by ISACA and ITGI
-
 - **SOX** - "Sarbanes-Oxley Act" Law that requires publicly traded companies to submit to independent audits and to properly disclose financial information
-
-- **GLBA** - "U.S Gramm-Leach-Bliley Act" Law that protects the confidentiality and integrity of personal information that is collected by financial institutions.
-
+- **GLBA** - "U.S Gramm-Leach-Bliley Act" Law that protects the confidentiality and integrity of personal information that is collected by financial institutions
 - **CSIRT** - "Computer Security Incident Response Team" CSIRT provided a single point of contact when reporting computer security incidents
-
 - **ITIL** - "Information Technology Infrastructure Library" - An operational framework developed in the '80s that standardizes IT management procedures 
 
 ### <u>Controls</u>
 
-- **Directive** - Also known as procedural controls because they deal with company procedures such as security policies, operations plans, and guidelines. 
-- **Deterrent** - Controls that are used to dissuade potential attackers, such as signs that warn possible attackers about the alarm system and monitoring in place.
+- **Directive** - Also known as procedural controls because they deal with company procedures such as security policies, operations plans, and guidelines
+- **Deterrent** - Controls that are used to dissuade potential attackers, such as signs that warn possible attackers about the alarm system and monitoring in place
 - **Preventive**  - Controls used to stop potential attacks by preventing users from performing specific actions, such as encryption and authentication
 - **Compensating** - Controls used to supplement directive controls, such as administrator reviewing logs files for violations of company policy
 - **Detective** -  Controls used to monitor and alert on malicious or unauthorized activity, such as IDS's and CCTV feeds monitored in real life
