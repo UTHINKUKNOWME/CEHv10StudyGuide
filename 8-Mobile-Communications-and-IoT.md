@@ -91,7 +91,13 @@
   - **Bloover** - can perform Bluebugging
   - **PhoneSnoop** - good spyware option for Blackberry
   - **Super Bluetooth Hack** - all-in-one package that allows you to do almost anything
-
+- **Bluetooth Countermeasures**
+  - Check paired devices
+  - Turn off visibility / turn off Bluetooth if not used
+  - Use strong PIN
+  - Use encryption
+  - Don't accept unknow requests
+  
 ### <u>IoT Architecture</u>
 
 - **Definition** - a collection of devices using sensors, software, storage and electronics to collect, analyze, store and share data
