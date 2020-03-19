@@ -79,7 +79,7 @@
   - Nmap
 - **Bluetooth Attacks**
   - **Bluesmacking** - denial of service against device, similar to an ICMP ping of death
-  - **Bluejacking** - sending unsolicited messages, similar to email spamming
+  - **Bluejacking** - sending unsolicited messages (using OBEX - Object Exchange protocol), similar to email spamming
   - **Bluesniffing** - attempt to discover Bluetooth devices
   - **Bluebugging** - remotely using a device's features
   - **Bluesnarfing** - theft of data from a device
