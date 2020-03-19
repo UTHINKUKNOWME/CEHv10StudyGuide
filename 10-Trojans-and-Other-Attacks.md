@@ -163,6 +163,9 @@
 ### <u>Session Hijacking</u>
 
 - Attacker waits for a session to begin and after the victim authenticates, steals the session for himself
+- 2 types : 
+  1. Network-level Session Hijacking : works at Network and Transport layer (IP spoofing + predict TCP Seq n°) 
+  2. Application-level Session Hijacking : works at Application layer with Web app and session ID/cookie
 - **Steps**
   1. Sniff the traffic between the client and server
   2. Monitor the traffic and predict the sequence numbering
