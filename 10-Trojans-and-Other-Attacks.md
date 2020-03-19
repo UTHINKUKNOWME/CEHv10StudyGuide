@@ -186,7 +186,7 @@
   - **Juggernaut**
   - **Hamster**
   - **Ferret**
- - **Tools to detect Session Hijacking**
+- **Tools to detect Session Hijacking**
   - **LogRhythm**
   - **Wireshark**
 - **Countermeasures**
