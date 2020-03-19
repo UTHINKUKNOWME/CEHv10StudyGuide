@@ -183,6 +183,7 @@
   - **Zaproxy**
   - **Paros**
   - **Burp Suite**
+  - **Fiddler**
   - **Juggernaut**
   - **Hamster**
   - **Ferret**
