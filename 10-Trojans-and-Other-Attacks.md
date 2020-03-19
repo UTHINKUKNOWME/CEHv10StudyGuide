@@ -186,6 +186,9 @@
   - **Juggernaut**
   - **Hamster**
   - **Ferret**
+ - **Tools to detect Session Hijacking**
+  - **LogRhythm**
+  - **Wireshark**
 - **Countermeasures**
   - Using unpredictable session IDs
   - Limiting incoming connections
