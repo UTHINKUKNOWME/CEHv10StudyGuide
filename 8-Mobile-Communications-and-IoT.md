@@ -78,12 +78,12 @@
   - DroidSheep
   - Nmap
 - **Bluetooth Attacks**
-  - **Bluesmacking** - denial of service against device
-  - **Bluejacking** - sending unsolicited messages
+  - **Bluesmacking** - denial of service against device, similar to an ICMP ping of death
+  - **Bluejacking** - sending unsolicited messages, similar to email spamming
   - **Bluesniffing** - attempt to discover Bluetooth devices
   - **Bluebugging** - remotely using a device's features
   - **Bluesnarfing** - theft of data from a device
-  - **Blueprinting** - colecting device information over Bluetooth
+  - **Blueprinting** - colecting device information over Bluetooth, footprinting technique
 - **Bluetooth Attack Tools**
   - **BlueScanner** - finds devices around you
   - **BT Browser** - another tool for finding and enumerating devices
