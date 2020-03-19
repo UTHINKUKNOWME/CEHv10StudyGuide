@@ -191,6 +191,8 @@
   - Limiting incoming connections
   - Minimizing remote access
   - Regenerating the session key after authentication
+  - Protect authentication cookies with SSL
+  - Use HTTP Public Key Pinning (HPKP) and HSTS (HTTP Strict Transport Security)
   - Use IPSec to encrypt
 - **IPSec**
   - **Transport Mode** - payload and ESP trailer are encrypted;  IP header is not
