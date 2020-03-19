@@ -64,11 +64,11 @@
 ### <u>Wireless Hacking</u>
 
 - **Threats**
-  - Access Control Attacks
-  - Integrity Attacks
-  - Confidentiality Attacks
-  - Availability Attacks
-  - Authentication Attacks
+  - Access Control Attacks - evading access controll parameters (MAC spoofing, Rogue Access point)
+  - Integrity Attacks - data frame injection, replay attacks, etc...
+  - Confidentiality Attacks - traffic analysis, session hijacking, MITM, etc...
+  - Availability Attacks - prevent user from accessing the wireless network (flooding, ARP poisoning, De-Authentication attacks)
+  - Authentication Attacks - steal identity information or impersonating clients (password cracking, identity theft, password guessing)
 - **Network Discovery**
   - Wardriving, warflying, warwalking, etc.
   - Tools such as WiFiExplorer, WiFiFoFum, OpenSignalMaps, WiFinder
@@ -127,6 +127,18 @@
   - Uses a constantly changing temporal key and user-defined password
   - **Key Reinstallation Attack** (KRACK) - replay attack that uses third handshake of another device's session
   - Most other attacks are simply brute-forcing the password
+
+### <u>Wi-Fi Countermeasures</u>
+
+- Change default parameters
+- Disable remote login to wireless devices
+- Wireless IPS deployment
+- Use strong password
+- Use the latest standards (WPA2 AES)
+- MAC filtering
+- Update software often
+- Enable firewall
+- Use network management software
 
 ### <u>Wireless Sniffing</u>
 
