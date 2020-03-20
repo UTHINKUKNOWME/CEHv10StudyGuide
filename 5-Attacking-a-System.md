@@ -175,8 +175,11 @@
       - **DLL Hijacking** - replacing a DLL in the application directory with your own version which gives you the access you need
      - Use a tool that will provide you the access such as Metasploit
      - Social engineering a user to run an application
- - **Executing applications** - starting things such as keyloggers, spyware, back doors and crackers
+ - **Executing applications** - starting things such as keyloggers, spyware, backdoors and crackers
    - ECC refers executing applications as "owning" a system
+   - **Tools**
+     - PsExec 
+     
 ### <u>Hiding Files and Covering Tracks</u>
 
 - In Windows, **Alternate Data Stream** (ADS) can hide files
