@@ -166,17 +166,17 @@
 
 ### <u>Privilege Escalation and Executing Applications</u>
 
-- **Vertical** - lower-level user executes code at a higher privilege level
-- **Horizontal** - executing code at the same user level but from a location that would be protected from that access
-- **Four Methods**
-  - Crack the password of an admin - primary aim
-  - Take advantage of an OS vulnerability
-    - **DLL Hijacking** - replacing a DLL in the application directory with your own version which gives you the access you need
-  - Use a tool that will provide you the access such as Metasploit
-  - Social engineering a user to run an application
-- ECC refers executing applications as "owning" a system
-- **Executing applications** - starting things such as keyloggers, spyware, back doors and crackers
-
+- **Privilege Escalation**
+  - **Vertical** - lower-level user executes code at a higher privilege level
+  - **Horizontal** - executing code at the same user level but from a location that would be protected from that access
+  - **Four Methods**
+    - Crack the password of an admin - primary aim
+    - Take advantage of an OS vulnerability
+      - **DLL Hijacking** - replacing a DLL in the application directory with your own version which gives you the access you need
+     - Use a tool that will provide you the access such as Metasploit
+     - Social engineering a user to run an application
+ - **Executing applications** - starting things such as keyloggers, spyware, back doors and crackers
+   - ECC refers executing applications as "owning" a system
 ### <u>Hiding Files and Covering Tracks</u>
 
 - In Windows, **Alternate Data Stream** (ADS) can hide files
