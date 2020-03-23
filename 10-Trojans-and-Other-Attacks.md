@@ -130,7 +130,7 @@
 - **Preventing Malware**
   - Make sure you know what is going on in your system
   - Have a good antivirus that is up to date
-  - **Sheepdip** - system that is used to check things introduced into a network
+  - **Sheep Dip** - system that is used to check things introduced into a network
     - Is airgapped
 
 ### <u>Denial of Service Attacks</u>
