@@ -134,9 +134,9 @@
 - **Cookies** - small text-based files stored that contains information like preferences, session details or shopping cart contents
   - Can be manipulated to change functionality (e.g. changing a cooking that says "ADMIN=no" to "yes")
   - Sometimes, but rarely, can also contain passwords
-- **SQL Injection** - injecting SQl commands into input fields to produce output
+- **SQL Injection** - injecting SQL commands into input fields to produce output
   - Data Handling - Definition (DDL), manipulation (DML) and control (DCL)
-  - Example - input "' OR 1 = 1 --" into a login field - basically tells the server if 1 = 1 (always true) to allow the login.
+  - Example - input `' OR 1 = 1 --` into a login field - basically tells the server if 1 = 1 (always true) to allow the login.
   - Double dash (--) tells the server to ignore the rest of the query (in this example, the password check)
   - Basic test to see if SQL injection is possible is just inserting a single quote (')
   - **Fuzzing** - inputting random data into a target to see what will happen
