@@ -60,13 +60,13 @@
 
 **DNS Footprinting**
 
- - **Ports**
+- **Ports**
   - Name lookup - UDP 53
   - Zone transfer - TCP 53
- - **Zone transfer** replicates all records
- - **Name resolvers** answer requests
- - **Authoritative Servers** hold all records for a namespace
- - **DNS Record Types**
+- **Zone transfer** replicates all records
+- **Name resolvers** answer requests
+- **Authoritative Servers** hold all records for a namespace
+- **DNS Record Types**
   
     | Name  | Description        | Purpose                                        |
     | ----- | ------------------ | ---------------------------------------------- |
