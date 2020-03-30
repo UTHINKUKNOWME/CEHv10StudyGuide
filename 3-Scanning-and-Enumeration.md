@@ -7,6 +7,7 @@
 **Connection-Oriented Communication** - TCP packets require a connection due to the size of the data being transmitted and to ensure deliverability
 
 ### <u>TCP Flags</u>
+0 0 URG ACK PSH RST SYN FIN
 
 | Flag | Name           | Function                                                     |
 | ---- | -------------- | ------------------------------------------------------------ |
@@ -16,6 +17,7 @@
 | FIN  | Finish         | Ordered close to communications                              |
 | PSH  | Push           | Forces the delivery of data without concern for buffering    |
 | URG  | Urgent         | Data inside is being sent out of band.  Example is cancelling a message |
+
 
 ### <u>TCP Handshake</u>
 
@@ -41,10 +43,12 @@
     | 23          | Telnet   | TCP                |
     | 25          | SMTP     | TCP                |
     | 53          | DNS      | TCP/UDP            |
-    | 67          | DHCP     | UDP                |
+    | 67/68       | DHCP     | UDP                |
     | 69          | TFTP     | UDP                |
     | 80          | HTTP     | TCP                |
+    | 88          | Kerberos | UDP                |
     | 110         | POP3     | TCP                |
+    | 111         | Portmapper (Linux) | TCP      |
     | 135         | RPC      | TCP                |
     | 137-139     | NetBIOS  | TCP/UDP            |
     | 143         | IMAP     | TCP                |
@@ -54,7 +58,9 @@
     | 445         | SMB      | TCP                |
     | 500         | ISAKMP/IKE | UDP             |
     | 514         | SYSLOG   | UDP                |
+    | 1080        | SOCKS5   | TCP                |
     | 3268        | Global Catalog Service | TCP/UDP |
+    | 6667        | IRC      | TCP                |
 
   - A service is said to be **listening** for a port when it has that specific port open
 
