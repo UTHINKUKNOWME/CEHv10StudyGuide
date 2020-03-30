@@ -130,8 +130,8 @@
 
 ### <u>IoT Vulnerabilities and Attacks</u>
 
- - **I1 - Insecure Web Interface** - problems such as account enumeration, weak credentials, and no account lockout
- - **I2 - Insufficient Authentication/Authorization** - assumes interfaces will only be exposed on internal networks and thus is a flaw
+- **I1 - Insecure Web Interface** - problems such as account enumeration, weak credentials, and no account lockout
+- **I2 - Insufficient Authentication/Authorization** - assumes interfaces will only be exposed on internal networks and thus is a flaw
 - **I3 - Insecure Network Services** - may be succeptible to buffer overflow or DoS attacks
 - **I4 - Lack of Transport Encryption/Integrity Verification** - data transported without encryption
 - **I5 - Privacy Concerns** - due to collection of personal data
@@ -140,6 +140,7 @@
 - **I8 - Insufficient Security Configurability** - cannot change security which causes default passwords and configuration
 - **I9 - Insecure Software/Firmware** - lack of a device to be updated or devices that do not check for updates
 - **I10 - Poor Physical Security** - because of the nature of devices, these can easily be stolen
+
 - **Sybil Attack** - uses multiple forged identifies to create the illusion of traffic
 - **HVAC Attacks** - attacks on HVAC systems
 - **Rolling Code** - the ability to jam a key fob's communications, steal the code and then create a subsequent code
