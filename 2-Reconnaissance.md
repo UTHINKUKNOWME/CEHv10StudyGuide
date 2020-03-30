@@ -60,20 +60,14 @@
 
 **DNS Footprinting**
 
-- Ports
-
+- **Ports**
   - Name lookup - UDP 53
   - Zone transfer - TCP 53
-
-- Zone transfer replicates all records
-
+- **Zone transfer** replicates all records
 - **Name resolvers** answer requests
-
 - **Authoritative Servers** hold all records for a namespace
-
 - **DNS Record Types**
   
-
     | Name  | Description        | Purpose                                        |
     | ----- | ------------------ | ---------------------------------------------- |
     | SRV   | Service            | Points to a specific service                   |
@@ -82,14 +76,12 @@
     | NS    | Nameserver         | Lists the nameservers for a namespace          |
     | MX    | Mail Exchange      | Lists email servers                            |
     | CNAME | Canonical Name     | Maps a name to an A reccord                    |
-    | A     | Address            | Maps an hostname to an IP address              |
+    | A     | Address IPv4       | Maps an hostname to an IPv4 address            |
+    | AAAA  | Address IPv6       | Maps an hostname to an IPv6 address            |
 
 - **DNS Poisoning** - changes cache on a machine to redirect requests to a malicious server
-
 - **DNSSEC** - helps prevent DNS poisoning by encrypting records
-
 - **SOA Record Fields**
-
   - **Source Host** - hostname of the primary DNS
   - **Contact Email** - email for the person responsible for the zone file
   - **Serial Number** - revision number that increments with each change
@@ -99,7 +91,6 @@
   - **TTL** - minimum TTL for records within the zone
 
 - **IP Address Management**
-
   - **ARIN** - North America
   - **APNIC** - Asia Pacific
   - **RIPE** - Europe, Middle East
@@ -107,18 +98,14 @@
   - **AfriNIC** - Africa
 
 - **Whois** - obtains registration information for the domain
-
 - **Nslookup** - performs DNS queries
-
   - `nslookup [ - options ] [ hostname ]`
   - interactive zone transfer
     - `nslookup`
     - `server <IP Address>`
     - `set type = any`
     - `ls -d domainname.com`
-
 - **Dig** - unix-based command like nslookup
-
   - `dig @server name type`
 
 **Network Footprinting**
