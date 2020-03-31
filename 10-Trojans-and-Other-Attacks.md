@@ -6,7 +6,7 @@
   - Most is downloaded from the Internet with or without the user's knowledge
 - **Overt Channels** - legitimate communication channels used by programs
 - **Covert Channels** - used to transport data in unintended ways
-- **Wrappers** - programs that allow you to bind an executable to an innocent file
+- **Wrappers (or binders)** - programs that allow you to bind an executable to an innocent file
 - **Crypters** - use a combination of encryption and code manipulation to render malware undetectable to security programs
 - **Packers** - use compression to pack the executable which helps evage signature based detection
 - **Exploit Kits** - help deliver exploits and payloads
@@ -93,7 +93,7 @@
     - Locky
     - Petya
 - **Other Virus Types**
-  - **Boot Sector Virus** - known as system virus; moves boot sector to another location and then inserts its code int he original location
+  - **Boot Sector Virus** - known as system virus; moves boot sector to another location and then inserts its code in the original location
   - **Shell Virus** - wraps  around an application's code, inserting itself before the application's
   - **Cluster Virus** - modifies directory table entries so every time a file or folder is opened, the virus runs
   - **Multipartite Virus** - attempts to infect both boot sector and files; generally refers to viruses with multiple infection methods
@@ -105,6 +105,10 @@
   - **Cavity Virus** - overwrite portions of host files as to not increase the actual size of the file; uses null content sections
   - **Sparse Infector Virus** - only infects occasionally (e.g. every 10th time)
   - **File Extension Virus** - changes the file extensions of files to take advantage of most people having them turned off (readme.txt.vbs shows as readme.txt)
+- **Famous Viruses**
+  - I Love You
+  - Melissa
+  - MyDoom
 - **Virus Makers**
   - Sonic Bat
   - PoisonVirus Maker
