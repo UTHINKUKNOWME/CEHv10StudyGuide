@@ -1,10 +1,8 @@
 # Scanning and Enumeration
 
-**Scanning** - discovering systems on the network and looking at what ports are open as well as applications that may be running
-
-**Connectionless Communication** - UDP packets are sent without creating a connection.  Examples are TFTP, DNS (lookups only) and DHCP
-
-**Connection-Oriented Communication** - TCP packets require a connection due to the size of the data being transmitted and to ensure deliverability
+- **Scanning** - discovering systems on the network and looking at what ports are open as well as applications that may be running
+- **Connectionless Communication** - UDP packets are sent without creating a connection.  Examples are TFTP, DNS (lookups only) and DHCP
+- **Connection-Oriented Communication** - TCP packets require a connection due to the size of the data being transmitted and to ensure deliverability
 
 ### <u>TCP Flags</u>
 0 0 URG ACK PSH RST SYN FIN (**U**nskilled **A**ttackers **P**ester **R**eal **S**ecurity **F**olks)
@@ -27,13 +25,9 @@
 ### <u>Port Numbers</u>
 
 - **Internet Assigned Numbers Authority** (IANA) - maintains Service Name and Transport Protocol Port Number Registry which lists all port number reservations
-
 - Ranges
-
   - **Well-known ports** - 0 - 1023
-
   - **Registered ports** - 1024 - 49,151
-
   - **Dynamic ports** - 49,152 - 65,535
 
     | Port Number | Protocol | Transport Protocol |
@@ -63,11 +57,8 @@
     | 6667        | IRC      | TCP                |
 
   - A service is said to be **listening** for a port when it has that specific port open
-
   - Once a service has made a connection, the port is in an **established** state
-
   - Netstat
-
     - Shows open ports on computer
     - `netstat -an` displays connections in numerical form
     - `netstat -b` displays executables tied to the open port (admin only)
@@ -102,9 +93,7 @@
 ### <u>Identifying Targets</u>
 
 - The easiest way to scan for live systems is through ICMP.
-
 - It has it's shortcomings and is sometimes blocked on hosts that are actually live.
-
 - **Message Types and Returns**
 
   | ICMP Message Type           | Description and Codes                                        |
