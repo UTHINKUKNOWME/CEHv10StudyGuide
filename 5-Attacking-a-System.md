@@ -4,7 +4,7 @@
  
 - Authentication credentials stored in SAM file
 - File is located at C:\windows\system32\config
-- Older systems use LM hashing.  Current uses NTLM v2 (MD5)
+- Older systems use LM hashing.  Current uses NTLMv2 (MD5, salt)
 - Windows network authentication uses Kerberos
 - **LM Hashing**
   - Splits the password up.  If it's over 7 characters, it is encoded in two sections.
