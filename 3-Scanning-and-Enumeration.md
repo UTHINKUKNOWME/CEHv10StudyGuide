@@ -7,7 +7,7 @@
 **Connection-Oriented Communication** - TCP packets require a connection due to the size of the data being transmitted and to ensure deliverability
 
 ### <u>TCP Flags</u>
-0 0 URG ACK PSH RST SYN FIN
+0 0 URG ACK PSH RST SYN FIN (**U**nskilled **A**ttackers **P**ester **R**eal **S**ecurity **F**olks)
 
 | Flag | Name           | Function                                                     |
 | ---- | -------------- | ------------------------------------------------------------ |
