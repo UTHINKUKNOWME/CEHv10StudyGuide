@@ -153,13 +153,13 @@
   - **ICMP flood** - sends ICMP Echo packets with a spoofed address; eventually reaches limit of packets per second sent
   - **Smurf** - large number of pings to the broadcast address of the subnet with source IP spoofed as the target; entire subnet responds exhausting the target
   - **Fraggle** - same as smurf but with UDP packets
-  - **Ping of Death** - fragments ICMP messages; after reassembled, the ICMP packet is larger than the maximum size and crashes the system
-  - **Teardrop** - overlaps a large number of garbled IP fragments with oversized payloads; causes older systems to crash due to fragment reassembly
+  - **Ping of Death** - fragments ICMP messages; after reassembled, the ICMP packet is larger than the maximum size (64k) and crashes the system
+  - **Teardrop** - IP offset values modified to cause fragments to overlap during reassembly; causes older systems to crash
   - **Peer to peer** - clients of peer-to-peer file-sharing hub are disconnected and directed to connect to the target system
   - **Phlashing** - a DoS attack that causes permanent damage to a system; also called bricking a system
   - **LAND attack** - sends a SYN packet to the target with a spoofed IP the same as the target; if vulnerable, target loops endlessly and crashes
-- **Low Orbit Ion Cannon** (LOIC) - DDoS tool that floods a target with TCP, UDP or HTTP requests
-- **Other Tools**
+- **Tools**
+  - Low Orbit Ion Cannon (LOIC) - DDoS tool that floods a target with TCP, UDP or HTTP requests
   - Trinity - Linux based DDoS tool
   - Tribe Flood Network - uses voluntary botnet systems to launch massive flood attacks
   - R-U-Dead-Yet (RUDY) - DoS with HTTP POST via long-form field submissions
