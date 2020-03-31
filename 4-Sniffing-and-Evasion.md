@@ -139,16 +139,16 @@
   - Can be used to follow streams of data
   - Can also filter the  packets so you can find  a specific type or specific source address
   - **Example filters**
-    - ! (arp or icmp or dns) - filters out the "noise" from ARP, DNS and ICMP requests
-    - http.request - displays HTTP GET requests
-    - tcp contains string - displays TCP segments that contain the word "string"
-    - ip.addr==172.17.15.12 && tcp.port==23 - displays telnet packets containing that IP
-    - tcp.flags==0x16 - filters TCP requests with ACK flag set
+    - `! (arp or icmp or dns)` - filters out the "noise" from ARP, DNS and ICMP requests
+    - `http.request` - displays HTTP GET requests
+    - `tcp contains string` - displays TCP segments that contain the word "string"
+    - `ip.addr==172.17.15.12 && tcp.port==23` - displays telnet packets containing that IP
+    - `tcp.flags==0x16` - filters TCP requests with ACK flag set
 - **tcpdump**
   - Recent version is WinDump (for Windows)
   - **Syntax**
     - tcpdump flag(s) interface
-    - tcpdump -i eth1 - puts the interface in listening mode
+    - `tcpdump -i eth1` - puts the interface in listening mode
 - **tcptrace**
   - Analyzes files produced by packet capture programs such as Wireshark, tcpdump and Etherpeek
 - **Other Tools**
@@ -176,12 +176,11 @@
     - **NIDS** - analyzes network traffic against various rule sets
   - Configuration is in /etc/snort on Linux and c:\snort\etc in Windows
   - **Rule syntax**
-    - alert tcp !HOME_NET any -> $HOME_NET 31337 (msg : "BACKDOOR ATTEMPT-Backorifice")
+    - `alert tcp !HOME_NET any -> $HOME_NET 31337 (msg : "BACKDOOR ATTEMPT-Backorifice")`
       - This alerts about traffic coming not from an external network to the internal one on port 31337
   - **Example output**
-    - 10/19-14:48:38.543734 0:48:542:2A:67 -> 0:10:B5:3C:34:C4 type:0x800 len:0x5EA
-      **xxx -> xxx TCP TTL:64 TOS:0x0 ID:18112 IpLen:20 DgmLen:1500 DF**
-    - Important info is bolded
+    - `10/19-14:48:38.543734 0:48:542:2A:67 -> 0:10:B5:3C:34:C4 type:0x800 len:0x5EA xxx -> xxx TCP TTL:64 TOS:0x0 ID:18112 IpLen:20 DgmLen:1500 DF`
+    - xxx = IP address
 - **Firewall**
   - An appliance within a network that protects internal resources from unauthorized access
   - Only uses rules that **implicitly denies** traffic unless it is allowed
