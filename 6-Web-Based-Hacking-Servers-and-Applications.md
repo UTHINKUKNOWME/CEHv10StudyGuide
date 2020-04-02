@@ -120,6 +120,12 @@
 - **Buffer Overflow** (Smashing the stack) - attempts to write data into application's buffer area to overwrite adjacent memory, execute code or crash a system
   - Inputs more data than the buffer is allowed
   - Includes stack, heap, NOP sleds and more
+  - Following functions are dangerous because they do not check the size of the destination buffers:
+    - gets()
+    - strcpy()
+    - strcat()
+    - printf()
+    - The >> operator is also dangerous for the same reason
   - **Canaries** - systems can monitor these - if they are changed, they indicate a buffer overflow has occurred; placed between buffer and control data
 - **XSS** (Cross-site scripting) - inputting javascript into a web form that alters what the page does
   - Can also be passed via URL (http://IPADDRESS/";!--"<XSS>=&{()}
