@@ -38,7 +38,7 @@
   - Doesn't effectively encrypt anything
   - Uses RC4 for encryption
   - Original intent was to give wireless the same level of protection of an Ethernet hub
-  - **Initialization Vector** (IV) - used to calculate a 32 bit integrity check value (ICV)
+  - **Initialization Vector** (IV)
   	- IVs are generally small and are frequently reused
   	- Sent in clear text as a part of the header
   	- This combined with RC4 makes it easy to decrypt the WEP key
@@ -73,7 +73,7 @@
   - Wardriving, warflying, warwalking, etc.
   - Tools such as WiFiExplorer, WiFiFoFum, OpenSignalMaps, WiFinder
   - **WIGLE** - map for wireless networks
-  - **NetStumbler** - tool to find networks
+  - **NetStumbler** - tool to find networks (802.11n and above are not supported) 
   - **Kismet** - wireless packet analyzer/sniffer that can be used for discovery
   	- Works without sending any packets (passively)
   	- Can detects access points that have not been configured
