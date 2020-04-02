@@ -80,6 +80,7 @@
 | rm       | Removes files.  -r option recursively removes all directories and subdirectories |
 | su       | Allows you to perform functions as another user (super user) |
 | pwd      | Displays curennt directory                                   |
+| lsof     | List open files                                              |
 
 - Adding an ampersand after a process name indicates it should run in the background.
 - **chmod** - changes the permissions of a folder or file
@@ -87,7 +88,8 @@
   - First number is user, second is group, third is others
   - Example - 755 is everything for users, read/execute for group, and read/execute for others
 - Root has UID and GID of 0
-- First user has UID and GID of 500
+- Accounts for services: 1-999
+- First user has UID and GID of 1000
 - Passwords are stored in /etc/shadow for most current systems
 - /etc/password stores passwords in hashes.
 - /etc/shadow stores passwords encrypted (hashed and salted) and is only accessible by root
