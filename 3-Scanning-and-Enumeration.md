@@ -154,7 +154,7 @@
 | -sA             | ACK scan                                                     |
 | -sF             | FIN scan                                                     |
 | -sI             | IDLE scan                                                    |
-| -sL             | DNS scan (list scan)                                         |
+| -sL             | List scan (simply list targets to scan)                      |
 | -sN             | NULL scan                                                    |
 | -sO             | Protocol scan (tests which IP protocols respond)             |
 | -sP             | Ping scan                                                    |
@@ -242,8 +242,9 @@
 - **Resource Identifier** (RID) - portion of the SID identifying a specific user, group or computer
 - The end  of the SID indicates the user number
   - Example SID:  S-1-5-21-3874928736-367528774-1298337465-**500**
-  - **Administrator Account** - SID of 500
-  - **Regular Accounts** - start with a SID of 1000
+  - **Administrator Account** - RID of 500
+  - **Guest Account** - RID of 501
+  - **Regular Accounts** - start with a RID of 1000
   - **Linux Systems** used user IDs (UID) and group IDs (GID).  Found in /etc/passwd
 - **SAM Database** - file where all local passwords are stored (encrypted)
   - Stored in C:\Windows\System32\Config
@@ -251,7 +252,9 @@
   - **finger** - info on user and host machine
   - **rpcinfo and rpcclient** - info on RPC in the environment
   - **showmount** - displays all shared directories on the machine
-
+- **Null Session** - sometimes an effective method to enumerate a Windows system
+  - `net use \\<target>\IPC$ "" /u:""`
+  - require TCP ports 135, 137, 139, and 445
 ### <u>Banner Grabbing</u>
 
 - **Active** - sending specially crafted packets and comparing responses to determine OS
@@ -276,7 +279,7 @@
 | ---- | ------ | ------------------------- |
 | <1B> | UNIQUE | Domain master browser     |
 | <1C> | UNIQUE | Domain controller         |
-| <1D> | GROUP  | Master browser for subnet |
+| <1D> | GROUP  | Master browser            |
 | <00> | UNIQUE | Hostname                  |
 | <00> | GROUP  | Domain name               |
 | <03> | UNIQUE | Service running on system |
