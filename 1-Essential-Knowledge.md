@@ -183,8 +183,6 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 - **Shrink-Wrap Code** - attack takes advantage of built-in code or scripts
 - **Misconfiguration** - attack takes advantage of systems that are misconfigured due to improper configuration or default configuration
 
-**Infowar** - the use of offensive and defensive techniques to create an advantage
-
 ### <u>Hacking Phases</u>
 
 1. **Reconnaissance**  - gathering evidence about targets
