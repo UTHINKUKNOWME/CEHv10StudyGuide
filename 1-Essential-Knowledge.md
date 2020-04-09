@@ -152,15 +152,17 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 
 ### <u>Policy Categorizations</u>
 
-- **Promiscuous** - wide open
-- **Permissive** - blocks only known dangerous things
-- **Prudent** - blocks most and only allows things for business purposes
-- **Paranoid** - locks everything down
+ - **Promiscuous** - wide open
+ - **Permissive** - blocks only known dangerous things
+ - **Prudent** - blocks most and only allows things for business purposes
+ - **Paranoid** - locks everything down
 
-**Standards** - mandatory rules to achieve consistency
-**Baselines** - provide the minimum security necessary
-**Guidelines** - flexible or recommended actions
-**Procedures** - step by step instructions
+### <u>Policy Types</u>
+
+ - **Standards** - mandatory rules to achieve consistency
+ - **Baselines** - provide the minimum security necessary
+ - **Guidelines** - flexible or recommended actions
+ - **Procedures** - step by step instructions
 
 ### <u>Some terminologies</u>
 
