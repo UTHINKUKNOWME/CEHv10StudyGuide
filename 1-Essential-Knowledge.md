@@ -234,7 +234,7 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 - **OSSTM Compliance** - "Open Source Security Testing Methodology Manual" maintained by ISECOM , defines three types of compliance
   - **Legislative** - Deals with government regulations (Such as SOX and HIPAA)
   - **Contractual** - Deals with industry / group requirement (Such as PCI DSS)
-  - **Standards based** - Deals with practices that must be followed by members of a given group/organization (Such as ITIL ,ISO and OSSTMM itself)
+  - **Standards based** - Deals with practices that must be followed by members of a given group/organization (Such as ITIL, ISO and OSSTMM itself)
 - **CFAA** - "Computer Fraud and Abuse Act" Enacted in 1986 and addresses hacking activities
 - **ISO 27001** - Security standard based on the British BS7799 standard, focuses on security governance
 - **NIST-800-53** -  Catalogs security and privacy controls for federal information systems, created to help implementation of FISMA
