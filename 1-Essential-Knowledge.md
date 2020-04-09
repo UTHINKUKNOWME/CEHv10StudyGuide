@@ -83,11 +83,11 @@ SYN -> SYN-ACK -> ACK
 
 ### <u>Risk Management</u>
 
-- Risk identification
-- Risk assessment
-- Risk treatment
-- Risk tracking
-- Risk review
+ - Risk identification
+ - Risk assessment
+ - Risk treatment
+ - Risk tracking
+ - Risk review
 
   *Uses risk analysis matrix to determine threat level
 
