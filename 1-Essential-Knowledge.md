@@ -162,20 +162,19 @@ Confidentiality != authentication - MAC address spoofing is an authentication at
 **Guidelines** - flexible or recommended actions
 **Procedures** - step by step instructions
 
-### <u>The Hats</u>
+### <u>Some terminologies</u>
 
-- **White Hat** - ethical hackers
-- **Black Hat** - hackers that seek to perform malicious activities
-- **Gray Hat** - hackers that perform good or bad activities but do not have the permission of the organization they are hacking against
-
-- **Hacktivist** - someone who hacks for a cause
-- **Suicide Hackers** - do not case about any impunity to themselves; hack to get the job done
-- **Cyberterrorist** - motivated by religious or political beliefs to create fear or disruption
-- **State-Sponsored Hacker** - hacker that is hired by a government
-- **Script Kiddie** - uneducated in security methods, but uses tools that are freely available to perform malicious activities
-- **Phreaker** - manipulates telephone systems
-- **Ethical hacker** - employs tools that hackers use with a customer's permission; always obtains an agreement from the client with specific objectives <u>before</u> any testing is done
-- **Cracker** - uses tools for personal gain or destructive purposes
+ - **White Hat** - ethical hackers
+ - **Black Hat** - hackers that seek to perform malicious activities
+ - **Gray Hat** - hackers that perform good or bad activities but do not have the permission of the organization they are hacking against
+ - **Hacktivist** - someone who hacks for a cause
+ - **Suicide Hackers** - do not case about any impunity to themselves; hack to get the job done
+ - **Cyberterrorist** - motivated by religious or political beliefs to create fear or disruption
+ - **State-Sponsored Hacker** - hacker that is hired by a government
+ - **Script Kiddie** - uneducated in security methods, but uses tools that are freely available to perform malicious activities
+ - **Phreaker** - manipulates telephone systems
+ - **Ethical hacker** - employs tools that hackers use with a customer's permission; always obtains an agreement from the client with specific objectives <u>before</u> any testing is done
+ - **Cracker** - uses tools for personal gain or destructive purposes
 
 ### <u>Attack Types</u>
 
