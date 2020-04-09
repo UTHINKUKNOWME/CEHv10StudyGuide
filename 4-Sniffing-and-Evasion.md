@@ -94,7 +94,7 @@
 
 ### <u>ARP Poisioning</u>
 
-- Also called ARP spoofing or gratuitous ARP
+- Also called ARP spoofing
 - This can trigger alerts because of the constant need to keep updating the ARP cache of machines
 - Changes the cache of machines so that packets are sent to you instead of the intended target
 - **Countermeasures**
