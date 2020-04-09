@@ -6,6 +6,8 @@
 - Types
   - **Anonymous** - information gathering without revealing anything about yourself
   - **Pseudonymous** - making someone else take the blame for your actions
+- **Competitive Intelligence** - information gathered by businesses about competitors
+- **Alexa.com** - resource for statistics about websites
 
 ### <u>Four Main Focuses</u>
 
@@ -20,10 +22,6 @@
   - Social engineering and other communication that requires interaction with target
 - **Passive** - measures to collect information from publicly available sources
   - Websites, DNS records, business information databases
-
-**Competitive Intelligence** - information gathered by businesses about competitors
-
-**Alexa.com** - resource for statistics about websites
 
 ### <u>Methods and Tools</u>
 
@@ -65,7 +63,6 @@
 - **Name resolvers** answer requests
 - **Authoritative Servers** hold all records for a namespace
 - **DNS Record Types**
-  
     | Name  | Description        | Purpose                                        |
     | ----- | ------------------ | ---------------------------------------------- |
     | SRV   | Service            | Points to a specific service                   |
@@ -73,7 +70,7 @@
     | PTR   | Pointer            | Maps an IP to a hostname                       |
     | NS    | Nameserver         | Lists the nameservers for a namespace          |
     | MX    | Mail Exchange      | Lists email servers                            |
-    | CNAME | Canonical Name     | Maps a name to an A reccord                    |
+    | CNAME | Canonical Name     | Provides for domain name aliases               |
     | A     | Address IPv4       | Maps an hostname to an IPv4 address            |
     | AAAA  | Address IPv6       | Maps an hostname to an IPv6 address            |
 
