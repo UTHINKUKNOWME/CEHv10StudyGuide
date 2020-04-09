@@ -26,9 +26,9 @@
 
 - **Internet Assigned Numbers Authority** (IANA) - maintains Service Name and Transport Protocol Port Number Registry which lists all port number reservations
 - Ranges
-  - **Well-known ports** - 0 - 1023
-  - **Registered ports** - 1024 - 49,151
-  - **Dynamic ports** - 49,152 - 65,535
+   - **Well-known ports** - 0 - 1023
+   - **Registered ports** - 1024 - 49,151
+   - **Dynamic ports** - 49,152 - 65,535
 
     | Port Number | Protocol | Transport Protocol |
     | ----------- | -------- | ------------------ |
@@ -92,9 +92,9 @@
 
 ### <u>Identifying Targets</u>
 
-- The easiest way to scan for live systems is through ICMP.
-- It has it's shortcomings and is sometimes blocked on hosts that are actually live.
-- **Message Types and Returns**
+ - The easiest way to scan for live systems is through ICMP.
+ - It has it's shortcomings and is sometimes blocked on hosts that are actually live.
+ - **Message Types and Returns**
 
   | ICMP Message Type           | Description and Codes                                        |
   | --------------------------- | ------------------------------------------------------------ |
