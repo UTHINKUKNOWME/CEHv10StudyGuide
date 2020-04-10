@@ -81,14 +81,14 @@
 - **DNS Amplification** - uses recursive DNS to DoS a target; amplifies DNS answers to target until it can't do anything
 - **Directory Transversal** (../ or dot-dot-slash) - requests file that should not be accessible from web server
   - Example:  http://www.example.com/../../../../etc/password
-  - Can use unicode to possibly evade IDS - %2e for dot and %sf for slash
+  - Can use unicode to possibly evade IDS - %2e for dot and %2f for slash
 - **Parameter Tampering** (URL Tampering) - manipulating parameters within URL to achieve escalation or other changes
 - **Hidden Field Tampering** - modifying hidden form fields producing unintended results
 - **Web Cache Poisoning** - replacing the cache on a box with a malicious version of it
 - **WFETCH** - Microsoft tool that allows you to craft HTTP requests to see response data
 - **Misconfiguration Attack** - same as before - improper configuration of a web server
 - **Password Attack** - attempting to crack passwords related to web resources
-- **Connection String Parameter Pollution** - injection attack that uses semicolons to take advantage of databases that use this separation method
+- **Connection String Parameter Pollution** (CSPP) - injection attack that uses semicolons (;) to take advantage of databases that use this separation method
 - **Web Defacement** - simply modifying a web page to say something else
 - **Tools**
   - **Brutus** - brute force web passwords of HTTP
@@ -136,7 +136,7 @@
   - Inherits  identity and privileges of victim to perform an undesired function on victim's behalf
   - Captures the session and sends a request based off the logged in user's credentials
   - Can be mitigated by sending **random challenge tokens**
-- **Session Fixation** - attacker logs into a legitimate site and pulls a session ID; sends link with session ID to victim.  Once vitcim logs in, attacker can now log in and run with uer's credentials
+- **Session Fixation** - attacker logs into a legitimate site and pulls a session ID; sends link with session ID to victim.  Once victim logs in, attacker can now log in and run with user's credentials
 - **Cookies** - small text-based files stored that contains information like preferences, session details or shopping cart contents
   - Can be manipulated to change functionality (e.g. changing a cooking that says "ADMIN=no" to "yes")
   - Sometimes, but rarely, can also contain passwords
