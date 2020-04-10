@@ -120,9 +120,7 @@
     - Some tokens are single-factor (such as a plug-and-play authentication)
   - **Something You Know** - better known as a password
     - Most systems use this because it is universal and well-known
-
 - **Two-Factor** - when you have two types of authentication such as something you know (password) and something you have (access card)
-
 - **Strength of passwords** - determined by length and complexity
   - ECC says that both should be combined for the best outcome
   - Complexity is defined by number of character sets used (lower case, upper case, numbers, symbols, etc.)
