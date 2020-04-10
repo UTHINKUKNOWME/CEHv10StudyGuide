@@ -7,6 +7,7 @@
 - Older systems use LM hashing.  Current uses NTLMv2 (MD5, salt)
 - Windows network authentication uses Kerberos
 - **LM Hashing**
+  - Converts the password to all uppercase
   - Splits the password up.  If it's over 7 characters, it is encoded in two sections.
   - If one section is blank, the hash will be AAD3B435B51404EE
   - Easy to break if password  is 7 characters or under because you can split the hash
@@ -188,17 +189,18 @@
   - Can be run by start readme.txt:badfile.exe
   - You can also create a link to this and make it look real (e.g. mklink innocent.exe readme.txt:badfile.exe)
   - Every forensic kit looks for this, however
-  - To show ADS, dir /r does the trick
+  - To show ADS, `dir /r` does the trick
   - You can also blow away all ADS by copying files to a FAT partition
 - You can also hide files by attributes
-  - In Windows:  attrib +h filename
-  - In Linux, simply add a . to the beginning of the filename
+  - In Windows:  `attrib +h filename` or `attrib -s filename`
+  - In Linux, simply add a `.` to the beginning of the filename
 - Can hide data and files with steganography
 - Also need to worry about clearing logs
   - In Windows, you need to clear application, system and security logs
   - Don't just delete; key sign that an attack has happened
   - Option is to corrupt a log file - this happens all the time
   - Best option is be selective and delete the entries pertaining to your actions.
+  - Log files are kept in C:\windows\system32\config and have an .evt extension
 - Can also disable auditing ahead of time to prevent logs from being captured
 
 ### <u>Rootkits</u>
@@ -221,3 +223,4 @@
 - **Kernel level** - attack boot sectors and kernel level replacing kernel code with back-door code; most dangerous
 - **Library level** - use system-level calls to hide themselves
 - One way to detect rootkits is to map all the files on a system and then boot a system from a clean CD version and compare the two file systems
+- Tools to help in detecting are **Tripwire** and **Sigverif**
