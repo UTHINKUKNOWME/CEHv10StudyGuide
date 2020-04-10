@@ -27,23 +27,23 @@ Created based on information found in [CEH Certified Ethical Hacker All-in-One E
 | Introduction to Ethical Hacking   | Chap 1 - Essential Knowledge       |
 | Footprinting and Reconnaissance   | Chap 2 - Reconnaissance            |
 | Scanning Networks                 | Chap 3 - Scanning and Enumeration  |
-| Enumeration                       | Chap 3 - Scanning and Enumeration   |
+| Enumeration                       | Chap 3 - Scanning and Enumeration  |
 | Vulnerability Analysis            | Chap 5 - Attacking a System        |
 | System Hacking                    | Chap 5 - Attacking a System        |
 | Malware Threats                   | Chap 10 - Trojans and Others Attacks |
 | Sniffing                          | Chap 4 - Sniffing and Evasion      |
 | Social Engineering                | Chap 12 - Low Tech: Social Engineering and Physical Security |
-| Denial of Service                 | Chap 10 - Trojans and Others Attacks|
-| Session Hijacking                 | Chap 10 - Trojans and Others Attacks|
-| Evading IDS, Firewalls, and Honeypots | Chap 4 - Sniffing and Evasion       |
+| Denial of Service                 | Chap 10 - Trojans and Others Attacks |
+| Session Hijacking                 | Chap 10 - Trojans and Others Attacks |
+| Evading IDS, Firewalls, and Honeypots | Chap 4 - Sniffing and Evasion  |
 | Hacking Web Servers               | Chap 6 - Web-Based Hacking - Servers and Applications |
 | Hacking Web Applications          | Chap 6 - Web-Based Hacking - Servers and Applications |
 | SQL Injection                     | Chap 6 - Web-Based Hacking - Servers and Applications |
-| Hacking Wireless Networks         | Chap 7 - Wireless Network Hacking |
+| Hacking Wireless Networks         | Chap 7 - Wireless Network Hacking  |
 | Hacking Mobile Platforms          | Chap 8 - Mobile Communications and IoT |
 | IoT Hacking                       | Chap 8 - Mobile Communications and IoT |
 | Cloud Computing                   | Chap 9 - Security in Cloud Computing |
-| Cryptography                      | Chap 11 - Cryptography 101  |
+| Cryptography                      | Chap 11 - Cryptography 101         |
 
 
 ## CEH Quick Review Guide
