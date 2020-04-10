@@ -199,7 +199,7 @@
 - **Slow down** - faster scanning such as using nmap's -T5 switch will get you caught.  Pros use -T1 switch to get better results
 - **Flood the network** - trigger alerts that aren't your intended attack so that you confuse firewalls/IDS and network admins
 - **Fragmentation** -  splits up packets so that the IDS can't detect the real intent
-- **Unicode encoding** - works with web requests - using Unicode characters instead of ascii can sometimes get past
+- **Unicode encoding** - works with web requests - using Unicode characters instead of ASCII can sometimes get past
 - **Tools**
   - **Nessus** - also a vulnerability scanner
   - **ADMmutate** - creates scripts not recognizable by signature files
