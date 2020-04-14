@@ -58,13 +58,13 @@
 | Wireless Standard | Encryption | IV Size (Bits) | Key Length (Bits) | Integrity Check |
 |-------------------|------------|----------------|-------------------|-----------------|
 | WEP               | RC4        | 24             | 40/104            | CRC-32          |
-| WPA               | RC4 + TKIP | 48             | 128               | Michael/CRC-32  |
+| WPA               | RC4 + TKIP | 48             | 128               | Michael/MIC     |
 | WPA2              | AES-CCMP   | 48             | 128               | CBC-MAC (CCMP)  |
 
 ### <u>Wireless Hacking</u>
 
 - **Threats**
-  - Access Control Attacks - evading access controll parameters (MAC spoofing, Rogue Access point)
+  - Access Control Attacks - evading access control parameters (MAC spoofing, Rogue Access point)
   - Integrity Attacks - data frame injection, replay attacks, etc...
   - Confidentiality Attacks - traffic analysis, session hijacking, MITM, etc...
   - Availability Attacks - prevent user from accessing the wireless network (flooding, ARP poisoning, De-Authentication attacks)
@@ -85,7 +85,7 @@
 - **WiFi Adapter**
   - AirPcap is mentioned for Windows, but isn't made anymore
   - **pcap** - driver library for Windows
-  - **libpcap** - drivery library for Linux
+  - **libpcap** - driver library for Linux
 
 ### <u>Wireless Attacks</u>
 
