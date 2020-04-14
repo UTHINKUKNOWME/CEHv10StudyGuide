@@ -47,7 +47,7 @@
       - **BootROM exploit** - allows access to file system, iBoot and custom boot logos; found in device's first bootloader; cannot be patched
 - **App Store attacks** - since some App stores are not vetted, malicious apps can be placed there
 - **Phishing attacks** - mobile phones have more data to be stolen and are just as vulnerable as desktops
-- **Android Device Administration API** - alows for security-aware apps that may help
+- **Android Device Administration API** - allows for security-aware apps that may help
 - **Bring Your Own Device** (BYOD) - dangerous for organizations because not all phones can be locked down by default
 - **Mobile Device Management** - like group policy on Windows; helps enforce security and deploy apps from enterprise
   - MDM solutions include XenMobile, IBM, MaaS360, AirWatch and MobiControl
@@ -88,7 +88,7 @@
   - **BlueScanner** - finds devices around you
   - **BT Browser** - another tool for finding and enumerating devices
   - **Bluesniff** and **btCrawler** - sniffing programs with GUI
-  - **Bloover** - can perform Bluebugging
+  - **Blooover** - can perform Bluebugging
   - **PhoneSnoop** - good spyware option for Blackberry
   - **Super Bluetooth Hack** - all-in-one package that allows you to do almost anything
 - **Bluetooth Countermeasures**
@@ -130,16 +130,17 @@
 
 ### <u>IoT Vulnerabilities and Attacks</u>
 
-- **I1 - Insecure Web Interface** - problems such as account enumeration, weak credentials, and no account lockout
-- **I2 - Insufficient Authentication/Authorization** - assumes interfaces will only be exposed on internal networks and thus is a flaw
-- **I3 - Insecure Network Services** - may be succeptible to buffer overflow or DoS attacks
-- **I4 - Lack of Transport Encryption/Integrity Verification** - data transported without encryption
-- **I5 - Privacy Concerns** - due to collection of personal data
-- **I6 - Insecure Cloud Interface** - easy-to-guess credentials make enumeration easy
-- **I7 - Insecure Mobile Interface** - easy-to-guess credentials on mobile interface
-- **I8 - Insufficient Security Configurability** - cannot change security which causes default passwords and configuration
-- **I9 - Insecure Software/Firmware** - lack of a device to be updated or devices that do not check for updates
-- **I10 - Poor Physical Security** - because of the nature of devices, these can easily be stolen
+- **OWASP Top 10 IOT**
+  - **I1 - Insecure Web Interface** - problems such as account enumeration, weak credentials, and no account lockout
+  - **I2 - Insufficient Authentication/Authorization** - assumes interfaces will only be exposed on internal networks and thus is a flaw
+  - **I3 - Insecure Network Services** - may be succeptible to buffer overflow or DoS attacks
+  - **I4 - Lack of Transport Encryption/Integrity Verification** - data transported without encryption
+  - **I5 - Privacy Concerns** - due to collection of personal data
+  - **I6 - Insecure Cloud Interface** - easy-to-guess credentials make enumeration easy
+  - **I7 - Insecure Mobile Interface** - easy-to-guess credentials on mobile interface
+  - **I8 - Insufficient Security Configurability** - cannot change security which causes default passwords and configuration
+  - **I9 - Insecure Software/Firmware** - lack of a device to be updated or devices that do not check for updates
+  - **I10 - Poor Physical Security** - because of the nature of devices, these can easily be stolen
 - **Sybil Attack** - uses multiple forged identifies to create the illusion of traffic
 - **HVAC Attacks** - attacks on HVAC systems
 - **Rolling Code** - the ability to jam a key fob's communications, steal the code and then create a subsequent code
