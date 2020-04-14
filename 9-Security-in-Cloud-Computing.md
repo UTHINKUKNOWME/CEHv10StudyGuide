@@ -24,7 +24,7 @@
   - **Cloud Consumer** - aquires and uses cloud products and services
   - **Cloud Provider** - purveyor of products and services
   - **Cloud Broker** - manages use, performance and delivery of services as well as relationships betwen providers and subscribers
-  - **Cloud Auditor** - independent assor of cloud service an security controls
+  - **Cloud Auditor** - independent assessor of cloud service and security controls
 - **FedRAMP** - regulatory effort regarding cloud computing
 - **PCI DSS** - deals with debit and credit cards, but also has a cloud SIG
 
@@ -35,7 +35,7 @@
 - **Trusted Computing Model** - attempts to resolve computer security problems through hardware enhancements
   - **Roots of Trust** (RoT) - set of functions within TCM that are always trusted by the OS
 - **Tools**
-  - **CloudInspect** - pen-testing application for AWS EC2 users
+  - **Core CloudInspect** - pen-testing application for AWS EC2 users
   - **CloudPassage Halo** - instant visibility and continuous protection for servers in any cloud
   - **Dell Cloud Manager**
   - **Qualys Cloud Suite**
@@ -51,7 +51,7 @@
 - **Service Oriented Architecture** - API  that makes it easier for application components to cooperate and exchange information
 - Insufficient due diligence - moving an application without knowing the security differences
 - Shared technology issues - multitenant environments that don't provide proper isolation
-- Unknown risk profiles - subscribers simply don't know what security provisions are made int he background
+- Unknown risk profiles - subscribers simply don't know what security provisions are made in the background
 - Others include malicious insiders, inadequate design and DDoS
 - **Wrapping Attack** - SOAP message intercepted and data in envelope is changed and sent/replayed
 - **Session riding** - CSRF under a diferent name; deals with cloud services instead of traditional data centers
