@@ -20,7 +20,7 @@
   - **Substitution** - bits are replaced by other bits
   - **Transposition** - doesn't replace;  simply changes order
 - **Encryption Algorithms** - mathematical formulas used to encrypt and decrypt data
-- **Steam Cipher** - readable bits are encrypted one at a time in a continuous stream
+- **Stream Cipher** - readable bits are encrypted one at a time in a continuous stream
   - Usually done by an XOR operation
   - Work at a high rate of speed
 - **Block Cipher** - data bits are split up into blocks and fed into the cipher
@@ -108,7 +108,7 @@
 - **Certificate Revocation List** (CRL) - used to track which certificates have problems and which have been revoked
 - **Validation Authority** - used to validate certificates via Online Certificate Status Protocol (OCSP)
 - **Trust Model** - how entities within an enterprise deal with keys, signatures and certificates
-- **Cross-Certification** - allows a CA to trust another CS in a completely different PKI; allows both CAs to validate certificates from either side
+- **Cross-Certification** - allows a CA to trust another CA in a completely different PKI; allows both CAs to validate certificates from either side
 - **Single-authority system** - CA at the top
 - **Hierarchical trust system** - CA at the top (root CA); makes use of one or more RAs (subordinate CAs) underneath it to issue and manage certificates
 
@@ -132,7 +132,7 @@
 
 ### <u>Digital Signatures</u>
 
-- When signing a message, you sign it with your **private** key and the recipient decrypts the has with their **public** key
+- When signing a message, you sign it with your **private** key
 - **Digital Signature Algorithm** (DSA) - used in generation and verification of digital signatures per FIPS 186-2
 
 ### <u>Full Disk Encryption</u>
@@ -159,10 +159,10 @@
   - CVE-2014-0160
 - **FREAK** (Factoring Attack on RSA-EXPORT Keys) - man-in-the-middle attack that forces a downgrade of RSA key to a weaker length
 - **POODLE** (Paddling Oracle On Downgraded Legacy Encryption) - downgrade attack that used the vulnerability that TLS downgrades to SSL if a connection cannot be made
-  - SSl 3 uses RC4, which is easy to crack
+  - SSL v3 uses RC4, which is easy to crack
   - CVE-2014-3566
   - Also called PoodleBleed
-- **DROWN** (Decrypting RSA with Obsolete and Weakened eNcyption) - affects SSL and TLS services
+- **DROWN** (Decrypting RSA with Obsolete and Weakened eNcryption) - affects SSL and TLS services
   - Allows attackers to break the encryption and steal sensitive data
   - Uses flaws in SSL v2
   - Not only web servers; can be IMAP and POP servers as well
