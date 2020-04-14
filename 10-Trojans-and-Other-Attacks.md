@@ -38,7 +38,7 @@
     - Netcat
 - **Covert Channel Tunneling Trojan** (CCTT) - a RAT trojan; creates data transfer channels in previously authorized data streams
 - **Netcat**
-  - "Swiss army knife" of tcp/ip hacking
+  - "Swiss army knife" of TCP/IP hacking
   - Provides all sorts of control over a remote shell on a target
   - Connects via `nc -e IPaddress Port#` to establich command-line access
   - From attack machine `nc -l -p 5555` opens a listening port on 5555
@@ -146,7 +146,7 @@
   - **Fragmentation attacks** - attacks take advantage of the system's ability to reconstruct fragmented packets
   - **Volumetric attacks** - bandwidth attacks; consume all bandwidth for the system or service
   - **Application attacks** - consume the resources necessary for the application to run
-    - Note - application level attakcs are against weak code; application attacks are just the general term
+    - Note - application level attacks are against weak code; application attacks are just the general term
   - **TCP state-exhaustion attacks** - go after load balancers, firewalls and application servers
   - **SYN attack** - sends thousands of SYN packets to the machine with a false source address; eventually engages all resources and exhausts the machine
   - **SYN flood** - sends thousands of SYN packets; does not spoof IP but doesn't respond to the SYN/ACK packets; eventually bogs down the computer, runs out of resources
