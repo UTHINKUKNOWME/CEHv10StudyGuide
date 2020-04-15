@@ -1,4 +1,4 @@
-# CEH v10 Study Guide
+# CEHv10 Study Guide
 
 Created based on information found in [CEH Certified Ethical Hacker All-in-One Exam Guide, Fourth Edition](https://learning.oreilly.com/library/view/ceh-certified-ethical/9781260454567/) by Matt Walker
 
