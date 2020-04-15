@@ -4,7 +4,7 @@
 - **Connectionless Communication** - UDP packets are sent without creating a connection.  Examples are TFTP, DNS (lookups only) and DHCP
 - **Connection-Oriented Communication** - TCP packets require a connection due to the size of the data being transmitted and to ensure deliverability
 
-### <u>TCP Flags</u>
+### TCP Flags
 0 0 URG ACK PSH RST SYN FIN (**U**nskilled **A**ttackers **P**ester **R**eal **S**ecurity **F**olks)
 
 | Flag | Name           | Function                                                     |
@@ -17,12 +17,12 @@
 | URG  | Urgent         | Data inside is being sent out of band.  Example is cancelling a message |
 
 
-### <u>TCP Handshake</u>
+### TCP Handshake
 
 - SYN -> SYN-ACK -> ACK
 - Sequence numbers increase on new communication.  Example is computers A and B.  A would increment B's sequence number.  A would never increment it's own sequence.
 
-### <u>Port Numbers</u>
+### Port Numbers
 
 - **Internet Assigned Numbers Authority** (IANA) - maintains Service Name and Transport Protocol Port Number Registry which lists all port number reservations
 - Ranges
@@ -63,7 +63,7 @@
     - `netstat -an` displays connections in numerical form
     - `netstat -b` displays executables tied to the open port (admin only)
 
-### <u>Subnetting</u>
+### Subnetting
 
 - **IPv4 Main Address Types**
   - **Unicast** - acted on by a single recipient
@@ -80,7 +80,7 @@
   - If they are all 0s, it's the network address
   - Any other combination indicates an address in the range
   
-### <u>Scanning Methodology</u>
+### Scanning Methodology
 
 - **Check for live systems** - ping or other type of way to determine live hosts
 - **Check for open ports** - once you know live host IPs, scan them for listening ports
@@ -90,7 +90,7 @@
 - **Draw network diagrams** - shows logical and physical pathways into networks
 - **Prepare proxies** - obscures efforts to keep you hidden
 
-### <u>Identifying Targets</u>
+### Identifying Targets
 
  - The easiest way to scan for live systems is through ICMP.
  - It has it's shortcomings and is sometimes blocked on hosts that are actually live.
@@ -117,7 +117,7 @@
     - Pinkie
   - Nmap virtually always does a ping sweep with scans unless you turn it off
 
-### <u>Port Scan Types</u>
+### Port Scan Types
 
 - **Full connect** - TCP connect or full open scan - full connection and then tears down with RST
   - Easiest to detect, but most reliable
@@ -147,7 +147,7 @@
     - IPID increase of anything greater indicates the third party was not idle
   - `nmap -sI <zombie host>`
 
-### <u>Nmap Switches</u>
+### Nmap Switches
 
 | Switch          | Description                                                  |
 | --------------- | ------------------------------------------------------------ |
@@ -176,7 +176,7 @@
 - Nmap runs by default at a T3 level
 - **Fingerprinting** - another word for port sweeping and enumeration
 
-### <u>Hping</u>
+### Hping
 
 - Another powerful ping sweep and port scanning tool
 - Also can craft packets
@@ -199,7 +199,7 @@
 | -U      | Sets the URG flag                                            |
 | -X      | Sets the XMAS scan flags                                     |
 
-### <u>Evasion</u>
+### Evasion
 
 - To evade IDS, sometimes you need to change the way you scan
 - One method is to fragment packets (nmap -f switch)
@@ -219,7 +219,7 @@
 - **Tor** - a specific type of proxy that uses multiple hops to a destination; endpoints are peer computers
 - **Anonymizers** - hides identity on HTTP traffic (port 80)
 
-### <u>Vulnerability Scanning</u>
+### Vulnerability Scanning
 
 - Can be complex or simple tools run against a target to determine vulnerabilities
 - Industry standard is Tenable's Nessus
@@ -229,12 +229,12 @@
   - FreeScan - best known for testing websites and applications
   - OpenVAS - best competitor to Nessus and is free
 
-### <u>Enumeration</u>
+### Enumeration
 
 - Defined as listing the items that are found within a specific target
 - Always is active in nature
 
-### <u>Windows System Basics</u>
+### Windows System Basics
 
 - Everything runs within context of an account
 - **Security Context** - user identity and authentication information
@@ -255,7 +255,8 @@
 - **Null Session** - sometimes an effective method to enumerate a Windows system
   - `net use \\<target>\IPC$ "" /u:""`
   - require TCP ports 135, 137, 139, and 445
-### <u>Banner Grabbing</u>
+
+### Banner Grabbing
 
 - **Active** - sending specially crafted packets and comparing responses to determine OS
 - **Passive** - reading error messages, sniffing traffic or looking at page extensions
@@ -264,7 +265,7 @@
   - `nc <IPaddress or FQDN> <port number>`
 - Can be used to get information about OS or specific server info (such as web server, mail server, etc.)
 
-### <u>NetBIOS Enumeration</u>
+### NetBIOS Enumeration
 
 - NetBIOS provides name servicing, connectionless communication and some Session layer stuff
 - The browser service in Windows designed to host information about all machines within domain or TCP/IP network segment
@@ -292,7 +293,7 @@
   - NetBIOS Enumerator
   - NSAuditor
 
-### <u>SNMP Enumeration</u>
+### SNMP Enumeration
 
 - **Management Information Base** (MIB) - database that stores information
 - **Object Identifiers** (OID) - identifiers for information stored in MIB
@@ -312,7 +313,7 @@
   - SNScan
   - IP Network Browser
 
-### <u>Other Enumerations</u>
+### Other Enumerations
 
 - **LDAP**
   - Connects on TCP 389 to a Directory System Agent (DSA)
