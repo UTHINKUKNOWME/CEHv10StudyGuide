@@ -54,7 +54,7 @@
 - **Pharming** - use of malicious code that redirects a user's traffic
 - **Spimming** - sending spam over instant message
 - **Tools** - Netcraft Toolbar and PhishTank Toolbar
-- **Fave Antivirus** - very prevalent attack; pretends to be an anti-virus but is a malicious tool
+- **Fake Antivirus** - very prevalent attack; pretends to be an anti-virus but is a malicious tool
 
 ### <u>Mobile-Based Attacks</u>
 
