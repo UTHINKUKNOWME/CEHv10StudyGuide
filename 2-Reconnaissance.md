@@ -52,10 +52,12 @@
 - **Archive.org** - provides cached websites from various dates which possibly have sensitive information that has been now removed
 
 **Email Footprinting**
+
 - **Email  header** - may show servers and where the location of those servers are
 - **Email tracking** - services can track various bits of information including the IP address of where it was opened, where it went, etc.
 
 **DNS Footprinting**
+
 - **Ports**
   - Name lookup - UDP 53
   - Zone transfer - TCP 53
@@ -104,6 +106,7 @@
   - `dig @server name type`
 
 **Network Footprinting**
+
 - IP address range can be obtained from regional registrar
 - Use traceroute to find intermediary servers
   - traceroute uses ICMP echo in Windows
@@ -111,6 +114,7 @@
 - Linux Command - traceroute
 
 **Other Tools**
+
 - **OSRFramework** - uses open source intelligence to get information about target
 - **Web Spiders** - obtain information from the website such as pages, etc.
 - **Social Engineering Tools**
