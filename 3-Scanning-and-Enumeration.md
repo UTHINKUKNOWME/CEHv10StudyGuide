@@ -134,7 +134,7 @@
   - `nmap -sX`
 - **ACK flag probe** - multiple methods
   - TTL version - if TTL of RST packet < 64, port is open
-  - Window version - if the Window on the RST packet is anything other than 0, port open
+  - Window version - if the window on the RST packet is anything other than 0, port open
   - Can be used to check filtering.  If ACK is sent and no response, stateful firewall present.
   - `nmap -sA` (ACK scan)
   - `nmap -sW` (Window scan)
@@ -248,13 +248,15 @@
   - **Linux Systems** used user IDs (UID) and group IDs (GID).  Found in /etc/passwd
 - **SAM Database** - file where all local passwords are stored (encrypted)
   - Stored in C:\Windows\System32\Config
-- **Linux Enumeration Commands**
-  - **finger** - info on user and host machine
-  - **rpcinfo and rpcclient** - info on RPC in the environment
-  - **showmount** - displays all shared directories on the machine
 - **Null Session** - sometimes an effective method to enumerate a Windows system
   - `net use \\<target>\IPC$ "" /u:""`
   - require TCP ports 135, 137, 139, and 445
+
+### Linux Enumeration Commands
+
+- **finger** - info on user and host machine
+- **rpcinfo and rpcclient** - info on RPC in the environment
+- **showmount** - displays all shared directories on the machine
 
 ### Banner Grabbing
 
