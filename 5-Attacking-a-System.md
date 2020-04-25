@@ -212,7 +212,7 @@
   - Horsepill - Linux kernel rootkit inside initrd
   - Grayfish - Windows rootkit that injects in boot record, creating its own virtual file system (VFS)
   - Firefef - multi-component family of malware (malware on steroids)
-  - Azazel
+  - Azazel - helps in hiding the directories, remote connections and logins
   - Avatar
   - Necurs
   - ZeroAccess
