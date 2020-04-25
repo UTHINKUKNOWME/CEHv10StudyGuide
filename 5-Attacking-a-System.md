@@ -210,8 +210,8 @@
 - Also allows for future access
 - **Examples**
   - Horsepill - Linux kernel rootkit inside initrd
-  - Grayfish - Windows rootkit that injects in boot record
-  - Firefef - multi-component family of malware
+  - Grayfish - Windows rootkit that injects in boot record, creating its own virtual file system (VFS)
+  - Firefef - multi-component family of malware (malware on steroids)
   - Azazel
   - Avatar
   - Necurs
