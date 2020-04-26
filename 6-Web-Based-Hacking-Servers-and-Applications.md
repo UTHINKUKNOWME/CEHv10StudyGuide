@@ -111,7 +111,8 @@
   - BurpSuite
 - **Web 2.0** - dynamic applications; have a larger attack surface due to simultaneous communication
 - **File Injection** - attacker injects a pointer in a web form to an exploit hosted elsewhere
-- **Command Injection** - attacker gains shell access using Java or similar
+- **Command Injection** - injects commands into the form fields instead of the expected test entry
+- **Shell Injection** - attacker gains shell access using Java or similar
 - **LDAP Injection** - exploits applications that construct LDAP statements
   - Format for LDAP injection includes )(&)
 - **SOAP Injection** - inject query strings in order to bypass authentication
