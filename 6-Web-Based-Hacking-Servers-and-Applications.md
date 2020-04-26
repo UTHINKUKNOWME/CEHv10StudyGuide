@@ -2,7 +2,7 @@
 
 ### <u>Web Organizations</u>
 
-- **Internet Engineering Task Force** (IETF) - creates engineering documents to help make the Internet work better
+- **Internet Engineering Task Force** (IETF) - creates engineering documents to help make the Internet work better (RFC)
 - **World Wide Web Consortium** (W3C) - a standards-developing community
 - **Open Web Application Security Project** (OWASP) - organization focused on improving the security of software
 
@@ -26,9 +26,9 @@
 - **Information Gathering** - Internet searches, whois, reviewing robots.txt
 - **Web  Server Footprinting** - banner grabbing
   - **Tools**
-    - Netcraft
-    - HTTPRecon
-    - ID Serve
+    - Netcraft - High-level information
+    - HTTPRecon - identifying, reliably the web architecture and OS
+    - ID Serve - identifying, reliably the web architecture and OS
     - HTTPrint
     - nmap
       - nmap --script http-trace -p80 localhost (detects vulnerable TRACE method)
