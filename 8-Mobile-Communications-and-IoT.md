@@ -121,6 +121,7 @@
   - **Device to Cloud** - communicates directly to a cloud service
   - **Device to Gateway** - communicates with a gateway before sending to the cloud
   - **Back-End Data Sharing** - like device to cloud but adds abilities for parties to collect and use the data
+  - VANET - Vehicle Ad Hoc Network - vehicle-to-vehicle (V2V) data exchange
 - **Architecture Levels**
   - **Edge Technology Layer** - consists of sensors, RFID tags, readers and the devices
   - **Access Gateway Layer** - first data handling, message identification and routing
