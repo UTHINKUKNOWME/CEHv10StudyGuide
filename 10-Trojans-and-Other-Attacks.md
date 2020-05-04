@@ -97,7 +97,7 @@
   - **Shell Virus** - wraps  around an application's code, inserting itself before the application's
   - **Cluster Virus** - modifies directory table entries so every time a file or folder is opened, the virus runs
   - **Multipartite Virus** - attempts to infect both boot sector and files; generally refers to viruses with multiple infection methods
-  - **Macro Virus** - written in VBA; infects template files - mostly Word and Excel
+  - **Macro Virus** - written in VBA; infects template files - mostly Word and Excel (Melissa)
   - **Polymorphic Code Virus** - mutates its code by using a polymorphic engine; difficult to find because code is always changing
   - **Encryption Virus** - uses  encryption to hide the code from antivirus
   - **Metamorphic Virus** - rewrites itself everytime it infects a new  file
