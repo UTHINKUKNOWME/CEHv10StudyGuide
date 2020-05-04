@@ -91,7 +91,7 @@
     - CryptoDefense
     - police-themed
     - Locky - spread via spam e-mail with a malicious Microsoft Word docuemnt titled "invoice J-#######.doc" attached
-    - Petya - use Windows Management Instrumentation command line
+    - Petya - overwrote the Master Boot Record (MBR) until payment was recieved use Windows Management Instrumentation command line
 - **Other Virus Types**
   - **Boot Sector Virus** - known as system virus; moves boot sector to another location and then inserts its code in the original location
   - **Shell Virus** - wraps  around an application's code, inserting itself before the application's
