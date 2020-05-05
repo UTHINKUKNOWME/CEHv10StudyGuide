@@ -89,7 +89,7 @@
   - Text - character positions are key - blank spaces, text patterns
   - Image - file larger in size; some may have color palette faults
   - Audio & Video - require statistical analysis
-- **Methods**
+- **Methods for iamge steganography**
   - Least significant bit insertion - changes least meaningful bit
   - Masking and filtering (grayscale images) - like watermarking
   - Algorithmic transformation - hides in mathematical functions used in image compression
