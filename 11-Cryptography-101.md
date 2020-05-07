@@ -124,7 +124,7 @@
   - **Issuer** - shows the entity that verifies authenticity
   - **Valid From and Valid To** - dates certificate is good for
   - **Key Usage** - what purpose the certificate serves
-  - **Subject's Public Key** - copy of the subject's public key
+  - **Subject's Public Key** - copy of the subject's public key **IMPORTANT: PUBLIC KEY IS SENT WITH THE CERTIFICATE** 
   - **Optional Fields** - Issuer Unique Identifier, Subject Alternative Name, and Extensions
 - Some root CAs are automatically added to OSes that they already trust; normally are reputable companies
 - **Self-Signed Certificates** - certificates that are not signed by a CA; generally not used for public; used for development or internal purposes
